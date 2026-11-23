@@ -1,0 +1,1119 @@
+-event26  DEVICE_ADDED                 omrig VEN_04F3:00 04F3:311C Touchpad seat-omrig default group1  cap:pg  size 150x88mm tap (dl off) left scroll-nat scroll-2fg-edge click-buttonareas-clickfinger dwt-on dwtp-on
+ event26  GESTURE_SWIPE_BEGIN          +0.071s	3
+ event26  GESTURE_SWIPE_UPDATE         +0.078s	3 -24.56/-9.25 (-25.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +0.085s	3 -28.01/-11.55 (-26.67/-11.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +0.092s	3 -20.61/-7.55 (-23.67/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +0.098s	3 -25.49/-9.27 (-25.67/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +0.105s	3
+ event26  GESTURE_SWIPE_BEGIN          +0.604s	3
+ event26  GESTURE_SWIPE_UPDATE         +0.610s	3 -56.05/-10.74 (-40.00/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +0.617s	3
+ event26  GESTURE_SWIPE_BEGIN          +1.130s	3
+ event26  GESTURE_SWIPE_UPDATE         +1.138s	3 -10.31/-4.72 (-16.00/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +1.144s	3 -14.83/-6.50 (-19.00/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +1.151s	3 -16.18/-6.52 (-20.67/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +1.158s	3 -18.12/-7.08 (-21.33/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +1.165s	3 -15.88/-5.38 (-20.67/-7.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +1.172s	3
+ event26  GESTURE_SWIPE_BEGIN          +1.671s	3
+ event26  GESTURE_SWIPE_UPDATE         +1.677s	3 -22.81/-8.12 (-24.33/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +1.684s	3 -25.77/-8.38 (-26.67/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +1.691s	3 -34.71/-8.58 (-31.00/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +1.698s	3
+ event26  GESTURE_SWIPE_BEGIN          +2.177s	3
+ event26  GESTURE_SWIPE_UPDATE         +2.183s	3 30.15/ 7.97 (29.00/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +2.190s	3 41.96/12.46 (33.67/10.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +2.197s	3
+ event26  GESTURE_SWIPE_BEGIN          +2.673s	3
+ event26  GESTURE_SWIPE_UPDATE         +2.680s	3 -41.67/-10.71 (-35.00/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +2.687s	3 -27.42/-6.20 (-28.00/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +2.694s	3
+ event26  GESTURE_SWIPE_BEGIN          +3.165s	3
+ event26  GESTURE_SWIPE_UPDATE         +3.171s	3 38.37/ 2.71 (33.00/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +3.178s	3 68.57/13.32 (46.33/ 9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +3.185s	3 64.71/20.25 (43.67/13.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +3.192s	3
+ event26  GESTURE_SWIPE_BEGIN          +3.691s	3
+ event26  GESTURE_SWIPE_UPDATE         +3.698s	3 63.96/ 5.81 (44.00/ 4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +3.705s	3 92.70/23.87 (55.67/14.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +3.712s	3
+ event26  GESTURE_SWIPE_BEGIN          +4.196s	3
+ event26  GESTURE_SWIPE_UPDATE         +4.203s	3 67.53/24.47 (46.00/16.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +4.209s	3 61.01/24.40 (40.00/16.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +4.216s	3
+ event26  GESTURE_SWIPE_BEGIN          +4.694s	3
+ event26  GESTURE_SWIPE_UPDATE         +4.701s	3 -16.48/-4.19 (-21.00/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +4.708s	3 -11.94/-3.83 (-17.67/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +4.715s	3 -16.40/-4.76 (-20.67/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +4.722s	3 -19.09/-7.41 (-22.33/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +4.729s	3 -21.62/-8.53 (-23.67/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +4.736s	3
+ event26  GESTURE_SWIPE_BEGIN          +5.221s	3
+ event26  GESTURE_SWIPE_UPDATE         +5.228s	3 -34.30/-2.19 (-31.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +5.235s	3 -42.63/-3.22 (-35.33/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +5.242s	3 -42.88/-2.36 (-36.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +5.249s	3
+ event26  GESTURE_SWIPE_BEGIN          +5.726s	3
+ event26  GESTURE_SWIPE_UPDATE         +5.733s	3 -15.59/-3.64 (-20.00/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +5.740s	3 -16.03/-4.14 (-20.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +5.746s	3 -16.34/-4.48 (-20.67/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +5.753s	3
+ event26  GESTURE_SWIPE_BEGIN          +6.216s	3
+ event26  GESTURE_SWIPE_UPDATE         +6.223s	3 92.09/-25.01 (54.00/-14.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +6.230s	3 74.06/-5.50 (49.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +6.237s	3
+ event26  GESTURE_HOLD_BEGIN           +6.678s	1
+ event26  GESTURE_HOLD_END             +6.853s	1
+ event26  GESTURE_SWIPE_BEGIN          +7.295s	3
+ event26  GESTURE_SWIPE_UPDATE         +7.302s	3 -35.12/-2.24 (-31.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +7.309s	3 -24.16/ 0.00 (-26.33/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +7.316s	3 -32.13/ 0.71 (-30.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +7.323s	3
+ event26  GESTURE_SWIPE_BEGIN          +7.794s	3
+ event26  GESTURE_SWIPE_UPDATE         +7.801s	3 -11.18/-2.79 (-17.33/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +7.808s	3 -17.06/-2.36 (-21.67/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +7.815s	3 -16.57/-1.60 (-20.67/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +7.822s	3 -14.59/-0.96 (-20.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +7.829s	3
+ event26  GESTURE_SWIPE_BEGIN          +8.320s	3
+ event26  GESTURE_SWIPE_END            +8.327s	3
+ event26  GESTURE_SWIPE_BEGIN          +8.798s	3
+ event26  GESTURE_SWIPE_UPDATE         +8.805s	3 46.14/ 7.07 (37.00/ 5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +8.812s	3 52.96/13.70 (38.67/10.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +8.819s	3
+ event26  GESTURE_SWIPE_BEGIN          +9.267s	3
+ event26  GESTURE_SWIPE_UPDATE         +9.274s	3 61.54/12.31 (43.33/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +9.281s	3 69.38/19.90 (45.33/13.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +9.288s	3
+ event26  GESTURE_SWIPE_BEGIN          +9.834s	3
+ event26  GESTURE_SWIPE_UPDATE         +9.841s	3 -6.09/-0.51 (-12.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +9.848s	3 -5.38/-0.63 (-11.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +9.855s	3 -9.65/-1.44 (-15.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +9.862s	3 -12.24/-2.04 (-18.00/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +9.869s	3 -6.73/-1.24 (-12.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +9.876s	3
+ event26  GESTURE_SWIPE_BEGIN          +10.361s	3
+ event26  GESTURE_SWIPE_UPDATE         +10.368s	3 -31.76/ 2.79 (-30.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +10.375s	3 -27.93/ 1.95 (-28.67/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +10.382s	3 -22.66/ 1.49 (-25.33/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +10.389s	3
+ event26  GESTURE_SWIPE_BEGIN          +10.860s	3
+ event26  GESTURE_SWIPE_UPDATE         +10.866s	3 -18.95/-5.74 (-22.00/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +10.874s	3 -17.31/-4.72 (-22.00/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +10.880s	3 -20.55/-5.06 (-23.00/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +10.887s	3 -18.82/-3.27 (-23.00/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +10.894s	3
+ event26  GESTURE_SWIPE_BEGIN          +11.372s	3
+ event26  GESTURE_SWIPE_UPDATE         +11.379s	3 -25.36/ 0.32 (-26.33/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +11.386s	3 -61.17/ 0.47 (-43.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +11.393s	3 -46.86/-0.82 (-38.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +11.400s	3
+ event26  GESTURE_SWIPE_BEGIN          +11.877s	3
+ event26  GESTURE_SWIPE_UPDATE         +11.884s	3 -39.50/ 0.77 (-34.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +11.891s	3 -24.85/ 0.31 (-26.33/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +11.898s	3
+ event26  GESTURE_SWIPE_BEGIN          +12.361s	3
+ event26  GESTURE_SWIPE_UPDATE         +12.368s	3 -35.41/-1.10 (-32.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +12.375s	3 -56.49/-1.40 (-40.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +12.382s	3
+ event26  GESTURE_SWIPE_BEGIN          +12.858s	3
+ event26  GESTURE_SWIPE_UPDATE         +12.872s	3 -60.28/-2.40 (-58.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +12.886s	3 -74.35/-7.13 (-66.00/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +12.893s	3
+ event26  GESTURE_SWIPE_BEGIN          +13.364s	3
+ event26  GESTURE_SWIPE_UPDATE         +13.370s	3 38.44/-1.14 (33.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +13.377s	3 66.94/ 0.99 (45.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +13.384s	3 88.73/ 7.03 (54.67/ 4.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +13.391s	3
+ event26  GESTURE_SWIPE_BEGIN          +13.847s	3
+ event26  GESTURE_SWIPE_UPDATE         +13.853s	3 -31.21/-1.49 (-28.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +13.861s	3 -22.75/-0.89 (-25.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +13.867s	3 -31.64/-1.41 (-30.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +13.874s	3
+ event26  GESTURE_SWIPE_BEGIN          +14.338s	3
+ event26  GESTURE_SWIPE_UPDATE         +14.345s	3 83.52/-15.73 (51.33/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +14.352s	3 92.50/-0.54 (56.67/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +14.359s	3
+ event26  GESTURE_SWIPE_BEGIN          +14.836s	3
+ event26  GESTURE_SWIPE_UPDATE         +14.843s	3 89.07/26.39 (54.00/16.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +14.850s	3
+ event26  GESTURE_SWIPE_BEGIN          +15.327s	3
+ event26  GESTURE_SWIPE_UPDATE         +15.334s	3 94.74/ 7.29 (56.33/ 4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +15.340s	3 94.93/18.54 (56.33/11.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +15.347s	3
+ event26  GESTURE_SWIPE_BEGIN          +15.837s	3
+ event26  GESTURE_SWIPE_UPDATE         +15.850s	3 -27.98/-0.49 (-38.33/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +15.864s	3 -29.25/-2.00 (-39.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +15.871s	3
+ event26  GESTURE_SWIPE_BEGIN          +16.339s	3
+ event26  GESTURE_SWIPE_UPDATE         +16.346s	3 -78.98/-9.01 (-49.67/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +16.360s	3 -52.52/-7.96 (-55.00/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +16.367s	3
+ event26  GESTURE_SWIPE_BEGIN          +16.837s	3
+ event26  GESTURE_SWIPE_UPDATE         +16.851s	3 -45.33/-7.81 (-50.33/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +16.858s	3 -66.00/-3.42 (-45.00/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +16.865s	3
+ event26  GESTURE_HOLD_BEGIN           +17.342s	2
+ event26  GESTURE_HOLD_END             +17.371s	2
+ event26  GESTURE_SWIPE_BEGIN          +17.850s	3
+ event26  GESTURE_SWIPE_UPDATE         +17.856s	3 -41.55/-6.05 (-34.33/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +17.864s	3 -35.30/-6.12 (-32.67/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +17.870s	3
+ event26  GESTURE_HOLD_BEGIN           +18.334s	2
+ event26  GESTURE_HOLD_END             +18.335s	2 cancelled
+ event26  GESTURE_SWIPE_BEGIN          +18.818s	3
+ event26  GESTURE_SWIPE_UPDATE         +18.825s	3 68.71/11.03 (45.67/ 7.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +18.832s	3
+ event26  GESTURE_SWIPE_BEGIN          +19.288s	3
+ event26  GESTURE_SWIPE_UPDATE         +19.295s	3 39.47/-3.04 (34.67/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +19.303s	3 46.77/ 0.81 (38.67/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +19.309s	3 70.64/ 3.64 (45.33/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +19.316s	3
+ event26  GESTURE_SWIPE_BEGIN          +19.787s	3
+ event26  GESTURE_SWIPE_UPDATE         +19.793s	3 81.62/-1.60 (51.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +19.800s	3 90.70/ 4.95 (55.00/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +19.807s	3
+ event26  GESTURE_SWIPE_BEGIN          +20.286s	3
+ event26  GESTURE_SWIPE_UPDATE         +20.293s	3 84.26/-7.51 (52.33/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +20.300s	3 90.30/ 4.35 (55.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +20.307s	3
+ event26  GESTURE_SWIPE_BEGIN          +20.762s	3
+ event26  GESTURE_SWIPE_UPDATE         +20.769s	3 23.52/-13.35 (24.67/-14.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +20.776s	3 27.23/-10.21 (26.67/-10.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +20.783s	3 30.84/-7.80 (29.00/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +20.790s	3 35.59/-2.52 (33.00/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +20.797s	3
+ event26  GESTURE_SWIPE_BEGIN          +21.289s	3
+ event26  GESTURE_SWIPE_UPDATE         +21.296s	3 48.45/-5.52 (38.00/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +21.303s	3 74.36/-2.56 (48.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +21.310s	3 84.44/ 2.69 (52.33/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +21.317s	3
+ event26  GESTURE_SWIPE_BEGIN          +21.787s	3
+ event26  GESTURE_SWIPE_UPDATE         +21.794s	3 86.65/10.23 (53.67/ 6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +21.801s	3
+ event26  GESTURE_SWIPE_BEGIN          +22.259s	3
+ event26  GESTURE_SWIPE_UPDATE         +22.266s	3 74.08/-23.34 (48.67/-15.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +22.273s	3
+ event26  GESTURE_SWIPE_BEGIN          +22.708s	3
+ event26  GESTURE_SWIPE_UPDATE         +22.715s	3 -88.26/-16.00 (-53.33/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +22.722s	3 -66.48/-7.76 (-45.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +22.729s	3
+ event26  GESTURE_SWIPE_BEGIN          +23.200s	3
+ event26  GESTURE_SWIPE_UPDATE         +23.207s	3 91.73/ 7.60 (56.33/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +23.214s	3
+ event26  GESTURE_SWIPE_BEGIN          +23.698s	3
+ event26  GESTURE_SWIPE_UPDATE         +23.704s	3 122.60/12.02 (68.00/ 6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +23.711s	3
+ event26  GESTURE_SWIPE_BEGIN          +24.168s	3
+ event26  GESTURE_SWIPE_UPDATE         +24.175s	3 -33.11/-5.82 (-30.33/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +24.182s	3 -24.44/-3.49 (-25.67/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +24.189s	3 -31.89/-5.67 (-30.00/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +24.196s	3
+ event26  GESTURE_SWIPE_BEGIN          +25.239s	3
+ event26  GESTURE_SWIPE_UPDATE         +25.246s	3 41.73/-2.01 (34.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +25.253s	3 61.01/ 3.75 (43.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +25.260s	3 47.94/ 5.89 (38.00/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +25.267s	3
+ event26  GESTURE_SWIPE_BEGIN          +25.702s	3
+ event26  GESTURE_SWIPE_UPDATE         +25.709s	3 53.51/-26.28 (38.00/-18.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +25.716s	3 94.03/-30.78 (56.00/-18.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +25.723s	3 82.81/-3.21 (51.67/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +25.730s	3
+ event26  GESTURE_SWIPE_BEGIN          +26.172s	3
+ event26  GESTURE_SWIPE_UPDATE         +26.179s	3 48.92/-7.23 (38.33/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +26.186s	3 53.54/ 1.35 (39.67/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +26.193s	3 64.02/ 9.63 (44.33/ 6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +26.200s	3
+ event26  GESTURE_SWIPE_BEGIN          +26.671s	3
+ event26  GESTURE_SWIPE_UPDATE         +26.684s	3 120.07/22.30 (84.33/15.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +26.691s	3
+ event26  GESTURE_SWIPE_BEGIN          +27.140s	3
+ event26  GESTURE_SWIPE_UPDATE         +27.146s	3 42.53/11.48 (33.33/ 9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +27.154s	3 53.23/17.16 (40.33/13.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +27.160s	3 51.11/20.91 (36.67/15.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +27.167s	3
+ event26  GESTURE_SWIPE_BEGIN          +27.630s	3
+ event26  GESTURE_SWIPE_UPDATE         +27.637s	3 41.43/ 3.95 (35.00/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +27.645s	3 48.78/12.82 (39.33/10.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +27.651s	3 56.04/20.12 (39.00/14.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +27.658s	3
+ event26  GESTURE_SWIPE_BEGIN          +28.109s	3
+ event26  GESTURE_SWIPE_UPDATE         +28.115s	3 -69.56/ 0.00 (-45.67/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +28.123s	3 -79.85/ 3.63 (-51.33/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +28.130s	3
+ event26  GESTURE_SWIPE_BEGIN          +28.572s	3
+ event26  GESTURE_SWIPE_UPDATE         +28.579s	3 -42.26/-1.99 (-35.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +28.586s	3 -59.23/ 0.94 (-42.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +28.593s	3 -68.00/ 4.89 (-46.33/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +28.600s	3
+ event26  GESTURE_SWIPE_BEGIN          +29.057s	3
+ event26  GESTURE_SWIPE_UPDATE         +29.063s	3 -38.23/-3.44 (-33.33/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +29.070s	3 -57.68/-3.31 (-40.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +29.077s	3
+ event26  GESTURE_SWIPE_BEGIN          +29.532s	3
+ event26  GESTURE_SWIPE_UPDATE         +29.539s	3 31.11/-4.49 (30.00/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +29.546s	3 53.88/-2.76 (39.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +29.553s	3 49.57/ 1.27 (39.00/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +29.560s	3
+ event26  GESTURE_SWIPE_BEGIN          +30.020s	3
+ event26  GESTURE_SWIPE_UPDATE         +30.033s	3 86.06/-31.45 (69.33/-25.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +30.040s	3
+ event26  GESTURE_SWIPE_BEGIN          +30.482s	3
+ event26  GESTURE_SWIPE_UPDATE         +30.489s	3 -104.78/-38.42 (-60.00/-22.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +30.496s	3 -73.28/-22.39 (-48.00/-14.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +30.503s	3
+ event26  GESTURE_SWIPE_BEGIN          +30.959s	3
+ event26  GESTURE_SWIPE_UPDATE         +30.966s	3 -13.93/ 2.16 (-19.33/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +30.973s	3 -19.48/ 3.11 (-23.00/ 3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +30.980s	3 -20.37/ 0.57 (-24.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +30.987s	3 -25.23/-0.95 (-26.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +30.994s	3
+ event26  GESTURE_SWIPE_BEGIN          +31.500s	3
+ event26  GESTURE_SWIPE_UPDATE         +31.506s	3 -7.71/ 1.93 (-13.33/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +31.513s	3 -12.02/ 3.40 (-17.67/ 5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +31.520s	3 -18.51/ 2.85 (-21.67/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +31.527s	3 -13.31/ 1.63 (-19.00/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +31.533s	3 -30.00/ 2.07 (-29.00/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +31.540s	3
+ event26  GESTURE_SWIPE_BEGIN          +32.053s	3
+ event26  GESTURE_SWIPE_UPDATE         +32.060s	3 -6.93/ 0.00 (-13.00/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +32.066s	3 -11.08/-0.22 (-16.67/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +32.074s	3 -16.50/ 0.25 (-21.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +32.081s	3
+ event26  GESTURE_SWIPE_BEGIN          +32.558s	3
+ event26  GESTURE_SWIPE_UPDATE         +32.564s	3 -79.99/-13.16 (-50.67/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +32.571s	3 -77.70/-14.70 (-49.33/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +32.578s	3
+ event26  GESTURE_SWIPE_BEGIN          +33.035s	3
+ event26  GESTURE_SWIPE_UPDATE         +33.042s	3 -30.14/-2.74 (-29.33/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +33.049s	3 -41.44/ 0.00 (-35.00/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +33.056s	3 -28.87/ 1.33 (-29.00/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +33.063s	3
+ event26  GESTURE_SWIPE_BEGIN          +33.512s	3
+ event26  GESTURE_SWIPE_UPDATE         +33.519s	3 25.74/-30.49 (21.67/-25.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +33.526s	3 37.73/-39.51 (28.33/-29.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +33.532s	3 57.89/-42.52 (37.67/-27.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +33.539s	3 85.36/-43.24 (51.33/-26.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +33.546s	3
+ event26  GESTURE_SWIPE_BEGIN          +34.020s	3
+ event26  GESTURE_SWIPE_UPDATE         +34.034s	3 159.06/-41.36 (100.00/-26.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +34.041s	3
+ event26  GESTURE_SWIPE_BEGIN          +34.519s	3
+ event26  GESTURE_SWIPE_UPDATE         +34.526s	3 70.37/-7.49 (47.00/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +34.533s	3 83.01/ 4.82 (51.67/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +34.540s	3
+ event26  GESTURE_SWIPE_BEGIN          +35.018s	3
+ event26  GESTURE_SWIPE_UPDATE         +35.025s	3 -22.00/-1.21 (-24.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +35.032s	3 -32.91/-3.85 (-31.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +35.038s	3 -34.29/-5.22 (-30.67/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +35.045s	3
+ event26  GESTURE_HOLD_BEGIN           +35.523s	2
+ event26  GESTURE_HOLD_END             +35.551s	2 cancelled
+ event26  GESTURE_SWIPE_BEGIN          +36.078s	3
+ event26  GESTURE_SWIPE_UPDATE         +36.085s	3 36.58/ 7.46 (32.67/ 6.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +36.091s	3 55.33/14.66 (39.00/10.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +36.098s	3 86.52/26.33 (53.67/16.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +36.105s	3
+ event26  GESTURE_HOLD_BEGIN           +36.589s	2
+ event26  GESTURE_HOLD_END             +36.687s	2
+ event26  GESTURE_SWIPE_BEGIN          +37.221s	3
+ event26  GESTURE_SWIPE_UPDATE         +37.228s	3 70.63/-2.50 (47.00/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +37.235s	3 57.10/ 4.95 (42.33/ 3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +37.242s	3
+ event26  GESTURE_SWIPE_BEGIN          +37.733s	3
+ event26  GESTURE_SWIPE_UPDATE         +37.739s	3 18.35/ 1.64 (22.33/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +37.746s	3 30.80/ 4.60 (29.00/ 4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +37.753s	3 36.28/ 8.89 (32.67/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +37.760s	3 42.15/11.98 (34.00/ 9.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +37.767s	3
+ event26  GESTURE_SWIPE_BEGIN          +38.287s	3
+ event26  GESTURE_SWIPE_UPDATE         +38.294s	3 24.42/-7.07 (25.33/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +38.301s	3 35.07/-1.79 (32.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +38.307s	3 47.94/ 2.61 (36.67/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +38.314s	3 54.18/11.19 (40.33/ 8.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +38.321s	3
+ event26  GESTURE_SWIPE_BEGIN          +38.834s	3
+ event26  GESTURE_SWIPE_UPDATE         +38.841s	3 80.38/-16.81 (51.00/-10.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +38.848s	3 80.81/-9.70 (50.00/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +38.855s	3
+ event26  GESTURE_SWIPE_BEGIN          +39.349s	3
+ event26  GESTURE_SWIPE_UPDATE         +39.356s	3  4.66/ 1.24 (10.00/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +39.363s	3 119.95/43.78 (66.67/24.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +39.370s	3
+ event26  GESTURE_SWIPE_BEGIN          +39.840s	3
+ event26  GESTURE_SWIPE_UPDATE         +39.846s	3 59.78/-29.39 (40.00/-19.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +39.853s	3 107.11/-45.32 (60.67/-25.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +39.860s	3
+ event26  GESTURE_SWIPE_BEGIN          +40.324s	3
+ event26  GESTURE_SWIPE_UPDATE         +40.331s	3 117.10/43.99 (65.67/24.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +40.338s	3
+ event26  GESTURE_SWIPE_BEGIN          +40.804s	3
+ event26  GESTURE_SWIPE_UPDATE         +40.818s	3 82.60/ 8.30 (69.67/ 7.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +40.825s	3 81.01/27.90 (50.33/17.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +40.832s	3
+ event26  GESTURE_SWIPE_BEGIN          +41.310s	3
+ event26  GESTURE_SWIPE_UPDATE         +41.317s	3 -18.51/-3.81 (-22.67/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +41.324s	3
+ event26  GESTURE_SWIPE_BEGIN          +41.773s	3
+ event26  GESTURE_SWIPE_UPDATE         +41.779s	3 -37.59/-7.83 (-32.00/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +41.786s	3 -35.24/-5.51 (-32.00/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +41.793s	3 -41.92/-4.84 (-34.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +41.800s	3
+ event26  GESTURE_SWIPE_BEGIN          +42.243s	3
+ event26  GESTURE_SWIPE_UPDATE         +42.249s	3 -40.39/-2.38 (-34.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +42.256s	3 -45.02/-4.54 (-36.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +42.264s	3 -24.47/-2.12 (-27.00/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +42.271s	3
+ event26  GESTURE_SWIPE_BEGIN          +42.742s	3
+ event26  GESTURE_SWIPE_UPDATE         +42.748s	3 -2.31/ 0.85 (-6.33/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +42.756s	3 -140.13/55.18 (-75.33/29.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +42.763s	3
+ event26  GESTURE_SWIPE_BEGIN          +43.220s	3
+ event26  GESTURE_SWIPE_UPDATE         +43.227s	3 -63.65/-22.55 (-42.33/-15.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +43.234s	3 -57.64/-13.37 (-41.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +43.241s	3 -81.79/-11.92 (-50.33/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +43.248s	3
+ event26  GESTURE_SWIPE_BEGIN          +43.696s	3
+ event26  GESTURE_SWIPE_UPDATE         +43.703s	3 -38.37/-0.78 (-33.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +43.710s	3 -33.45/-1.78 (-31.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +43.717s	3 -37.65/-1.54 (-32.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +43.724s	3
+ event26  GESTURE_SWIPE_BEGIN          +44.179s	3
+ event26  GESTURE_SWIPE_UPDATE         +44.186s	3 113.95/ 2.92 (65.00/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +44.193s	3
+ event26  GESTURE_SWIPE_BEGIN          +44.657s	3
+ event26  GESTURE_SWIPE_UPDATE         +44.671s	3 37.76/-4.72 (45.33/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +44.685s	3 57.70/10.06 (57.33/10.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +44.692s	3
+ event26  GESTURE_SWIPE_BEGIN          +45.163s	3
+ event26  GESTURE_SWIPE_UPDATE         +45.170s	3 71.39/21.06 (46.33/13.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +45.177s	3 73.50/27.43 (47.33/17.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +45.184s	3
+ event26  GESTURE_SWIPE_BEGIN          +45.648s	3
+ event26  GESTURE_SWIPE_UPDATE         +45.655s	3 44.52/ 9.75 (35.00/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +45.662s	3 43.54/13.14 (35.33/10.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +45.669s	3
+ event26  GESTURE_SWIPE_BEGIN          +46.111s	3
+ event26  GESTURE_SWIPE_UPDATE         +46.117s	3 -43.27/ 0.00 (-34.33/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +46.124s	3 -36.37/ 1.84 (-33.00/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +46.131s	3 -45.70/ 1.24 (-37.00/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +46.138s	3
+ event26  GESTURE_SWIPE_BEGIN          +46.594s	3
+ event26  GESTURE_SWIPE_UPDATE         +46.601s	3 -45.41/-4.63 (-36.00/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +46.608s	3 -60.61/-3.29 (-43.00/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +46.615s	3
+ event26  GESTURE_SWIPE_BEGIN          +47.065s	3
+ event26  GESTURE_SWIPE_UPDATE         +47.072s	3 -40.79/-11.71 (-33.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +47.079s	3 -38.28/-8.80 (-33.33/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +47.086s	3 -36.29/-9.35 (-32.33/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +47.093s	3
+ event26  GESTURE_SWIPE_BEGIN          +47.564s	3
+ event26  GESTURE_SWIPE_UPDATE         +47.571s	3 -31.93/ 6.10 (-29.67/ 5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +47.578s	3 -27.46/ 6.14 (-28.33/ 6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +47.585s	3
+ event26  GESTURE_SWIPE_BEGIN          +48.063s	3
+ event26  GESTURE_SWIPE_UPDATE         +48.070s	3 -68.46/-15.60 (-45.33/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +48.077s	3
+ event26  GESTURE_SWIPE_BEGIN          +48.541s	3
+ event26  GESTURE_SWIPE_UPDATE         +48.548s	3 -21.20/-5.01 (-24.00/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +48.555s	3 -15.22/-3.74 (-20.33/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +48.562s	3 -21.84/-5.61 (-24.67/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +48.569s	3
+ event26  GESTURE_SWIPE_BEGIN          +49.026s	3
+ event26  GESTURE_SWIPE_UPDATE         +49.033s	3 25.64/-0.93 (27.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +49.039s	3 36.00/ 1.52 (31.67/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +49.047s	3 44.17/ 5.22 (36.67/ 4.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +49.054s	3
+ event26  GESTURE_SWIPE_BEGIN          +49.517s	3
+ event26  GESTURE_SWIPE_UPDATE         +49.524s	3 83.31/-14.86 (52.33/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +49.531s	3 60.40/ 0.00 (42.67/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +49.538s	3
+ event26  GESTURE_SWIPE_BEGIN          +50.009s	3
+ event26  GESTURE_SWIPE_UPDATE         +50.015s	3 37.79/-10.63 (32.00/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +50.023s	3 38.78/-11.13 (33.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +50.030s	3
+ event26  GESTURE_SWIPE_BEGIN          +50.515s	3
+ event26  GESTURE_SWIPE_UPDATE         +50.522s	3 -56.69/-13.83 (-41.00/-10.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +50.529s	3
+ event26  GESTURE_SWIPE_BEGIN          +51.007s	3
+ event26  GESTURE_SWIPE_UPDATE         +51.014s	3 -33.86/ 0.36 (-31.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +51.020s	3 -53.89/-0.46 (-39.00/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +51.027s	3
+ event26  GESTURE_SWIPE_BEGIN          +51.491s	3
+ event26  GESTURE_SWIPE_UPDATE         +51.498s	3 -39.93/-1.94 (-34.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +51.505s	3 -50.90/-1.76 (-38.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +51.512s	3 -52.78/-2.64 (-40.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +51.519s	3
+ event26  GESTURE_SWIPE_BEGIN          +52.010s	3
+ event26  GESTURE_SWIPE_UPDATE         +52.017s	3 -38.24/ 0.00 (-34.33/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +52.024s	3 -51.79/-3.13 (-38.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +52.031s	3
+ event26  GESTURE_SWIPE_BEGIN          +52.495s	3
+ event26  GESTURE_SWIPE_UPDATE         +52.502s	3 36.94/-7.07 (31.33/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +52.509s	3 35.62/-1.84 (32.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +52.516s	3
+ event26  GESTURE_SWIPE_BEGIN          +52.985s	3
+ event26  GESTURE_SWIPE_UPDATE         +52.991s	3 97.35/13.17 (56.67/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +52.998s	3
+ event26  GESTURE_SWIPE_BEGIN          +53.456s	3
+ event26  GESTURE_SWIPE_UPDATE         +53.462s	3 33.06/-2.94 (30.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +53.469s	3 46.67/ 2.52 (37.00/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +53.476s	3 60.30/11.49 (42.00/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +53.483s	3
+ event26  GESTURE_HOLD_BEGIN           +53.923s	2
+ event26  GESTURE_HOLD_END             +53.925s	2 cancelled
+ event26  GESTURE_SWIPE_BEGIN          +54.452s	3
+ event26  GESTURE_SWIPE_UPDATE         +54.458s	3 -46.21/-5.51 (-36.33/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +54.465s	3 -33.97/-3.93 (-31.67/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +54.472s	3
+ event26  GESTURE_SWIPE_BEGIN          +54.937s	3
+ event26  GESTURE_SWIPE_UPDATE         +54.944s	3 -44.75/-4.22 (-35.33/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +54.950s	3 -47.67/-3.86 (-37.00/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +54.957s	3
+ event26  GESTURE_SWIPE_BEGIN          +55.404s	3
+ event26  GESTURE_SWIPE_UPDATE         +55.418s	3 82.22/-6.39 (68.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +55.432s	3 99.68/ 2.15 (77.33/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +55.439s	3
+ event26  GESTURE_SWIPE_BEGIN          +55.944s	3
+ event26  GESTURE_SWIPE_UPDATE         +55.951s	3 61.02/ 7.51 (43.33/ 5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +55.958s	3 75.71/10.74 (49.33/ 7.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +55.965s	3
+ event26  GESTURE_SWIPE_BEGIN          +56.443s	3
+ event26  GESTURE_SWIPE_UPDATE         +56.450s	3 48.85/-10.12 (37.00/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +56.456s	3 60.55/-3.29 (43.00/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +56.464s	3 88.42/ 7.55 (54.67/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +56.471s	3
+ event26  GESTURE_SWIPE_BEGIN          +56.986s	3
+ event26  GESTURE_SWIPE_UPDATE         +56.993s	3 -14.53/-0.73 (-20.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +57.000s	3 -18.35/-1.67 (-22.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +57.008s	3 -15.80/-2.06 (-23.00/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +57.015s	3 -23.72/-3.39 (-25.67/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +57.022s	3
+ event26  GESTURE_SWIPE_BEGIN          +57.494s	3
+ event26  GESTURE_SWIPE_UPDATE         +57.500s	3 -29.75/-3.11 (-28.67/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +57.507s	3 -39.87/-4.83 (-33.00/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +57.514s	3
+ event26  GESTURE_SWIPE_BEGIN          +57.998s	3
+ event26  GESTURE_SWIPE_UPDATE         +58.005s	3 -26.26/-7.22 (-26.67/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +58.012s	3 -37.52/-10.13 (-33.33/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +58.019s	3 -49.08/-8.03 (-36.67/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +58.026s	3
+ event26  GESTURE_SWIPE_BEGIN          +58.511s	3
+ event26  GESTURE_SWIPE_UPDATE         +58.517s	3 -40.99/-11.77 (-33.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +58.524s	3 -62.25/-6.70 (-43.33/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +58.531s	3 -55.29/-4.08 (-40.67/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +58.538s	3
+ event26  GESTURE_SWIPE_BEGIN          +59.015s	3
+ event26  GESTURE_SWIPE_UPDATE         +59.022s	3 -24.31/-0.31 (-26.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +59.029s	3 -29.64/-0.35 (-28.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +59.036s	3
+ event26  GESTURE_SWIPE_BEGIN          +59.514s	3
+ event26  GESTURE_SWIPE_UPDATE         +59.521s	3 -28.41/-2.05 (-27.67/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +59.527s	3 -48.50/-6.87 (-37.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +59.534s	3 -34.65/-7.30 (-31.67/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +59.541s	3
+ event26  GESTURE_SWIPE_BEGIN          +60.012s	3
+ event26  GESTURE_SWIPE_UPDATE         +60.020s	3 12.93/-6.58 (18.33/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +60.026s	3 25.41/-6.19 (26.00/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +60.033s	3 30.38/-3.80 (29.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +60.040s	3 27.45/ 2.61 (28.00/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +60.047s	3
+ event26  GESTURE_SWIPE_BEGIN          +60.516s	3
+ event26  GESTURE_SWIPE_UPDATE         +60.523s	3 107.71/-8.64 (62.33/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +60.530s	3 134.10/ 6.77 (72.67/ 3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +60.537s	3
+ event26  GESTURE_SWIPE_BEGIN          +60.986s	3
+ event26  GESTURE_SWIPE_UPDATE         +60.992s	3 91.62/-9.38 (55.33/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +60.999s	3 89.22/ 5.44 (54.67/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +61.006s	3
+ event26  GESTURE_SWIPE_BEGIN          +61.469s	3
+ event26  GESTURE_SWIPE_UPDATE         +61.476s	3 103.99/ 4.57 (60.67/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +61.482s	3 113.43/15.52 (63.33/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +61.489s	3
+ event26  GESTURE_SWIPE_BEGIN          +61.966s	3
+ event26  GESTURE_SWIPE_UPDATE         +61.973s	3 74.66/-4.67 (48.00/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +61.980s	3 117.34/10.67 (66.00/ 6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +61.987s	3
+ event26  GESTURE_SWIPE_BEGIN          +62.484s	3
+ event26  GESTURE_SWIPE_UPDATE         +62.491s	3 104.42/14.75 (61.33/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +62.498s	3 69.79/ 8.97 (46.67/ 6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +62.505s	3
+ event26  GESTURE_SWIPE_BEGIN          +63.024s	3
+ event26  GESTURE_SWIPE_UPDATE         +63.030s	3 -7.83/ 1.91 (-13.67/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +63.037s	3 -12.70/ 1.13 (-18.67/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +63.044s	3 -22.99/ 2.15 (-25.00/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +63.051s	3 -24.15/ 1.24 (-26.00/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +63.058s	3 -29.89/-1.01 (-29.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +63.065s	3
+ event26  GESTURE_SWIPE_BEGIN          +63.514s	3
+ event26  GESTURE_SWIPE_UPDATE         +63.521s	3 -31.21/-0.69 (-30.33/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +63.527s	3 -34.27/ 1.46 (-31.33/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +63.534s	3 -39.41/ 2.34 (-33.67/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +63.541s	3
+ event26  GESTURE_SWIPE_BEGIN          +63.990s	3
+ event26  GESTURE_SWIPE_UPDATE         +63.997s	3 91.74/ 3.85 (55.67/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +64.004s	3 74.76/ 8.71 (48.67/ 5.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +64.011s	3
+ event26  GESTURE_SWIPE_BEGIN          +64.475s	3
+ event26  GESTURE_SWIPE_UPDATE         +64.482s	3 78.42/-26.14 (49.00/-16.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +64.488s	3 74.43/-19.12 (48.00/-12.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +64.495s	3
+ event26  GESTURE_SWIPE_BEGIN          +64.965s	3
+ event26  GESTURE_SWIPE_UPDATE         +64.972s	3 55.96/-4.51 (41.33/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +64.979s	3 69.02/-2.02 (45.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +64.986s	3
+ event26  GESTURE_SWIPE_BEGIN          +65.463s	3
+ event26  GESTURE_SWIPE_UPDATE         +65.470s	3 61.26/-3.77 (43.33/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +65.476s	3 90.94/ 1.65 (55.00/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +65.483s	3
+ event26  GESTURE_SWIPE_BEGIN          +65.961s	3
+ event26  GESTURE_SWIPE_UPDATE         +65.968s	3 -22.21/-2.92 (-25.33/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +65.975s	3 -24.91/-3.88 (-25.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +65.982s	3 -30.89/-5.21 (-29.67/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +65.989s	3
+ event26  GESTURE_SWIPE_BEGIN          +66.458s	3
+ event26  GESTURE_SWIPE_UPDATE         +66.465s	3 61.04/ 2.80 (43.67/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +66.472s	3 69.23/11.62 (45.67/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +66.479s	3
+ event26  GESTURE_SWIPE_BEGIN          +66.935s	3
+ event26  GESTURE_SWIPE_UPDATE         +66.941s	3 -35.25/-4.45 (-31.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +66.948s	3 -32.88/-3.29 (-30.00/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +66.955s	3 -28.51/-1.92 (-29.67/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +66.962s	3
+ event26  GESTURE_SWIPE_BEGIN          +67.413s	3
+ event26  GESTURE_SWIPE_UPDATE         +67.427s	3 -83.92/-9.90 (-70.67/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +67.434s	3
+ event26  GESTURE_SWIPE_BEGIN          +67.881s	3
+ event26  GESTURE_SWIPE_UPDATE         +67.895s	3 -72.57/-4.84 (-65.00/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +67.902s	3
+ event26  GESTURE_SWIPE_BEGIN          +68.369s	3
+ event26  GESTURE_SWIPE_UPDATE         +68.376s	3 -73.33/ 9.04 (-48.67/ 6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +68.390s	3 -41.46/ 1.45 (-47.67/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +68.397s	3
+ event26  GESTURE_SWIPE_BEGIN          +68.881s	3
+ event26  GESTURE_SWIPE_UPDATE         +68.889s	3 52.28/ 2.59 (40.33/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +68.895s	3 57.90/ 5.69 (40.67/ 4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +68.902s	3
+ event26  GESTURE_SWIPE_BEGIN          +69.413s	3
+ event26  GESTURE_SWIPE_UPDATE         +69.419s	3 55.24/-2.32 (39.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +69.427s	3 44.39/ 0.40 (36.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +69.433s	3
+ event26  GESTURE_SWIPE_BEGIN          +69.926s	3
+ event26  GESTURE_SWIPE_UPDATE         +69.932s	3 74.74/-10.82 (48.33/-7.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +69.939s	3 86.69/-2.18 (53.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +69.946s	3
+ event26  GESTURE_SWIPE_BEGIN          +70.408s	3
+ event26  GESTURE_SWIPE_UPDATE         +70.415s	3 72.62/-7.96 (48.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +70.422s	3 74.81/ 4.64 (48.33/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +70.429s	3
+ event26  GESTURE_SWIPE_BEGIN          +70.960s	3
+ event26  GESTURE_SWIPE_UPDATE         +70.967s	3 -8.76/ 1.63 (-14.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +70.974s	3 -9.84/ 1.03 (-16.00/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +70.981s	3 -13.44/ 1.85 (-19.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +70.988s	3
+ event26  GESTURE_SWIPE_BEGIN          +71.458s	3
+ event26  GESTURE_SWIPE_UPDATE         +71.465s	3 -40.87/-13.35 (-33.67/-11.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +71.472s	3 -52.59/-18.29 (-38.33/-13.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +71.479s	3
+ event26  GESTURE_SWIPE_BEGIN          +71.940s	3
+ event26  GESTURE_SWIPE_UPDATE         +71.954s	3 -46.72/ 0.31 (-51.00/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +71.961s	3
+ event26  GESTURE_SWIPE_BEGIN          +72.466s	3
+ event26  GESTURE_SWIPE_UPDATE         +72.473s	3 56.46/-4.97 (41.67/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +72.480s	3 39.20/ 0.38 (34.33/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +72.487s	3 35.45/ 5.28 (31.33/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +72.494s	3
+ event26  GESTURE_SWIPE_BEGIN          +72.971s	3
+ event26  GESTURE_SWIPE_UPDATE         +72.978s	3 57.51/ 3.65 (42.00/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +72.984s	3 56.52/ 7.47 (40.33/ 5.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +72.991s	3
+ event26  GESTURE_SWIPE_BEGIN          +73.450s	3
+ event26  GESTURE_SWIPE_UPDATE         +73.456s	3 -26.90/-1.00 (-27.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +73.463s	3 -24.99/-0.30 (-27.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +73.470s	3 -26.44/-1.00 (-26.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +73.477s	3
+ event26  GESTURE_SWIPE_BEGIN          +73.926s	3
+ event26  GESTURE_SWIPE_UPDATE         +73.934s	3 -24.30/-0.88 (-27.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +73.939s	3 -33.65/-1.17 (-28.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +73.946s	3
+ event26  GESTURE_SWIPE_BEGIN          +74.388s	3
+ event26  GESTURE_SWIPE_UPDATE         +74.396s	3 -38.91/-11.56 (-33.67/-10.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +74.403s	3 -25.01/-4.06 (-26.67/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +74.409s	3 -40.21/-8.12 (-33.00/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +74.416s	3
+ event26  GESTURE_SWIPE_BEGIN          +74.872s	3
+ event26  GESTURE_SWIPE_UPDATE         +74.879s	3 -58.43/-25.86 (-40.67/-18.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +74.886s	3 -72.17/-25.44 (-46.33/-16.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +74.893s	3
+ event26  GESTURE_SWIPE_BEGIN          +75.363s	3
+ event26  GESTURE_SWIPE_UPDATE         +75.371s	3 -57.86/-15.74 (-41.67/-11.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +75.377s	3 -73.75/-22.33 (-47.33/-14.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +75.384s	3
+ event26  GESTURE_SWIPE_BEGIN          +75.840s	3
+ event26  GESTURE_SWIPE_UPDATE         +75.847s	3 -44.54/-9.31 (-36.67/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +75.853s	3 -50.94/-8.56 (-37.67/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +75.860s	3
+ event26  GESTURE_SWIPE_BEGIN          +76.322s	3
+ event26  GESTURE_SWIPE_UPDATE         +76.329s	3 -70.51/-20.59 (-45.67/-13.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +76.336s	3 -64.99/-15.04 (-44.67/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +76.343s	3
+ event26  GESTURE_SWIPE_BEGIN          +76.863s	3
+ event26  GESTURE_SWIPE_UPDATE         +76.870s	3 27.81/ 0.00 (28.00/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +76.876s	3 37.64/ 1.92 (32.67/ 1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +76.884s	3 37.54/ 2.94 (34.00/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +76.891s	3
+ event26  GESTURE_SWIPE_BEGIN          +77.355s	3
+ event26  GESTURE_SWIPE_UPDATE         +77.362s	3 -50.45/-6.52 (-38.67/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +77.369s	3 -56.20/-6.85 (-41.00/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +77.376s	3
+ event26  GESTURE_SWIPE_BEGIN          +77.847s	3
+ event26  GESTURE_SWIPE_UPDATE         +77.854s	3 -30.94/-12.74 (-28.33/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +77.861s	3 -22.83/-8.22 (-25.00/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +77.868s	3 -23.23/-6.28 (-24.67/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +77.875s	3
+ event26  GESTURE_SWIPE_BEGIN          +78.380s	3
+ event26  GESTURE_SWIPE_UPDATE         +78.387s	3 15.49/-8.54 (19.33/-10.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +78.394s	3 22.20/-9.60 (24.67/-10.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +78.401s	3 31.66/-12.15 (28.67/-11.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +78.408s	3 41.03/-14.63 (33.67/-12.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +78.415s	3 45.81/-9.67 (36.33/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +78.422s	3
+ event26  GESTURE_SWIPE_BEGIN          +78.927s	3
+ event26  GESTURE_SWIPE_UPDATE         +78.934s	3 38.10/20.67 (31.33/17.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +78.941s	3 45.97/28.29 (34.67/21.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +78.948s	3
+ event26  GESTURE_HOLD_BEGIN           +79.389s	2
+ event26  GESTURE_HOLD_END             +79.480s	2
+ event26  GESTURE_SWIPE_BEGIN          +79.972s	3
+ event26  GESTURE_SWIPE_UPDATE         +79.979s	3 29.94/-5.38 (29.67/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +79.985s	3 43.81/-1.29 (34.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +79.993s	3 42.32/ 3.81 (37.00/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +80.000s	3
+ event26  GESTURE_SWIPE_BEGIN          +80.505s	3
+ event26  GESTURE_SWIPE_UPDATE         +80.512s	3 -7.69/-3.27 (-13.33/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +80.519s	3 -10.24/-3.70 (-15.67/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +80.526s	3 -11.91/-3.15 (-17.67/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +80.532s	3 -14.83/-3.90 (-19.00/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +80.539s	3 -25.06/-4.70 (-26.67/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      6  +80.546s	3 -21.28/-3.21 (-24.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +80.553s	3
+ event26  GESTURE_SWIPE_BEGIN          +81.037s	3
+ event26  GESTURE_SWIPE_UPDATE         +81.045s	3 -4.70/-1.03 (-10.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +81.052s	3 -9.95/-2.07 (-16.00/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +81.059s	3 -12.38/-2.29 (-18.00/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +81.066s	3 -20.07/-5.24 (-23.00/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +81.072s	3 -22.83/-6.17 (-24.67/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +81.079s	3
+ event26  GESTURE_SWIPE_BEGIN          +81.557s	3
+ event26  GESTURE_SWIPE_UPDATE         +81.563s	3 -15.60/-1.30 (-20.00/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +81.570s	3 -22.70/-2.65 (-25.67/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +81.577s	3 -21.93/-2.37 (-24.67/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +81.584s	3
+ event26  GESTURE_SWIPE_BEGIN          +82.033s	3
+ event26  GESTURE_SWIPE_UPDATE         +82.040s	3 -56.03/-6.33 (-41.33/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +82.047s	3 -50.29/-6.88 (-39.00/-5.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +82.054s	3 -31.07/-4.19 (-29.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +82.061s	3
+ event26  GESTURE_SWIPE_BEGIN          +82.517s	3
+ event26  GESTURE_SWIPE_UPDATE         +82.523s	3 -68.75/-9.03 (-45.67/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +82.530s	3 -68.08/-5.01 (-45.33/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +82.537s	3
+ event26  GESTURE_PINCH_BEGIN          +83.082s	3
+ event26  GESTURE_PINCH_END            +83.089s	3
+ event26  GESTURE_SWIPE_BEGIN          +83.558s	3
+ event26  GESTURE_SWIPE_UPDATE         +83.565s	3 -60.67/-1.87 (-43.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +83.571s	3 -86.19/-2.73 (-52.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +83.578s	3
+ event26  GESTURE_SWIPE_BEGIN          +84.050s	3
+ event26  GESTURE_SWIPE_UPDATE         +84.057s	3 -38.08/-13.46 (-33.00/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +84.064s	3 -33.40/-8.35 (-30.67/-7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +84.071s	3
+ event26  GESTURE_SWIPE_BEGIN          +84.534s	3
+ event26  GESTURE_SWIPE_UPDATE         +84.540s	3 44.55/-10.41 (35.67/-8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +84.548s	3 44.31/-4.83 (36.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +84.554s	3 41.14/ 0.00 (33.67/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +84.561s	3
+ event26  GESTURE_SWIPE_BEGIN          +85.023s	3
+ event26  GESTURE_SWIPE_UPDATE         +85.030s	3 22.51/-1.78 (25.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +85.037s	3 72.77/-0.51 (48.00/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +85.044s	3
+ event26  GESTURE_SWIPE_BEGIN          +85.529s	3
+ event26  GESTURE_SWIPE_UPDATE         +85.535s	3 103.68/ 4.01 (60.33/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +85.542s	3 83.78/11.14 (52.67/ 7.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +85.549s	3
+ event26  GESTURE_SWIPE_BEGIN          +86.026s	3
+ event26  GESTURE_SWIPE_UPDATE         +86.033s	3 22.09/ 2.36 (25.00/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +86.039s	3 32.46/ 7.13 (30.33/ 6.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +86.047s	3 43.47/13.00 (35.67/10.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +86.053s	3 51.46/17.92 (37.33/13.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +86.060s	3
+ event26  GESTURE_SWIPE_BEGIN          +86.530s	3
+ event26  GESTURE_SWIPE_UPDATE         +86.536s	3 99.01/24.90 (57.00/14.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +86.543s	3
+ event26  GESTURE_SWIPE_BEGIN          +87.021s	3
+ event26  GESTURE_SWIPE_UPDATE         +87.028s	3 62.21/21.87 (42.67/15.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +87.035s	3 73.33/33.77 (46.33/21.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +87.042s	3
+ event26  GESTURE_SWIPE_BEGIN          +87.498s	3
+ event26  GESTURE_SWIPE_UPDATE         +87.504s	3 52.23/-1.36 (38.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +87.511s	3 29.43/ 4.40 (29.00/ 4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +87.519s	3 48.67/13.66 (38.00/10.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +87.526s	3
+ event26  GESTURE_SWIPE_BEGIN          +87.983s	3
+ event26  GESTURE_SWIPE_UPDATE         +87.990s	3 34.97/ 7.73 (31.67/ 7.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +87.997s	3 44.39/14.24 (35.33/11.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +88.004s	3
+ event26  GESTURE_SWIPE_BEGIN          +88.475s	3
+ event26  GESTURE_SWIPE_UPDATE         +88.481s	3 113.54/ 7.06 (64.33/ 4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +88.488s	3 122.35/14.46 (67.67/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +88.495s	3
+ event26  GESTURE_SWIPE_BEGIN          +88.952s	3
+ event26  GESTURE_SWIPE_UPDATE         +88.959s	3 67.84/ 1.46 (46.33/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +88.966s	3 77.17/12.16 (48.67/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +88.973s	3
+ event26  GESTURE_SWIPE_BEGIN          +89.422s	3
+ event26  GESTURE_SWIPE_UPDATE         +89.429s	3 81.42/22.11 (50.33/13.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +89.436s	3 77.16/30.13 (48.67/19.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +89.443s	3
+ event26  GESTURE_SWIPE_BEGIN          +89.905s	3
+ event26  GESTURE_SWIPE_UPDATE         +89.912s	3 37.36/-9.06 (33.00/-8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +89.919s	3 34.23/-3.68 (31.00/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +89.926s	3 33.75/-0.36 (31.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +89.933s	3
+ event26  GESTURE_SWIPE_BEGIN          +90.389s	3
+ event26  GESTURE_SWIPE_UPDATE         +90.396s	3 -30.03/ 1.35 (-29.67/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +90.403s	3 -32.24/ 1.43 (-30.00/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +90.410s	3 -22.55/-0.30 (-25.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +90.417s	3
+ event26  GESTURE_SWIPE_BEGIN          +90.865s	3
+ event26  GESTURE_SWIPE_UPDATE         +90.872s	3 31.40/-7.41 (29.67/-7.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +90.879s	3 28.15/-3.64 (28.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +90.885s	3 32.52/-2.50 (30.33/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +90.892s	3
+ event26  GESTURE_SWIPE_BEGIN          +91.412s	3
+ event26  GESTURE_SWIPE_UPDATE         +91.418s	3 58.79/-2.35 (41.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +91.426s	3 55.19/ 4.45 (41.33/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +91.432s	3 76.21/ 9.53 (48.00/ 6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +91.439s	3
+ event26  GESTURE_SWIPE_BEGIN          +91.916s	3
+ event26  GESTURE_SWIPE_UPDATE         +91.923s	3 19.76/-2.82 (23.33/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +91.930s	3 64.50/-5.78 (44.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +91.937s	3
+ event26  GESTURE_HOLD_BEGIN           +92.377s	1
+ event26  GESTURE_HOLD_END             +92.462s	1
+ event26  GESTURE_SWIPE_BEGIN          +92.967s	3
+ event26  GESTURE_SWIPE_UPDATE         +92.974s	3 88.55/13.42 (55.00/ 8.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +92.981s	3 98.57/17.97 (56.67/10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +92.988s	3
+ event26  GESTURE_PINCH_BEGIN          +93.479s	3
+ event26  GESTURE_PINCH_UPDATE         +93.486s	3 -4.55/ 0.00 (-10.00/ 0.00 unaccelerated)  1.00 @  0.07
+ event26  GESTURE_PINCH_UPDATE      2  +93.493s	3 -4.83/ 1.15 (-10.50/ 2.50 unaccelerated)  1.00 @  0.00
+ event26  GESTURE_PINCH_UPDATE      3  +93.500s	3 -6.09/ 1.52 (-12.00/ 3.00 unaccelerated)  1.00 @ -0.14
+ event26  GESTURE_PINCH_UPDATE      4  +93.506s	3 -10.77/ 2.61 (-16.50/ 4.00 unaccelerated)  1.00 @ -0.24
+ event26  GESTURE_PINCH_END            +93.513s	3
+ event26  GESTURE_SWIPE_BEGIN          +93.991s	3
+ event26  GESTURE_SWIPE_UPDATE         +93.998s	3 -19.81/-7.57 (-22.67/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +94.005s	3 -18.78/-6.73 (-22.33/-8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +94.012s	3 -24.88/-9.89 (-26.00/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +94.019s	3 -26.80/-10.52 (-26.33/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +94.026s	3
+ event26  GESTURE_SWIPE_BEGIN          +94.503s	3
+ event26  GESTURE_SWIPE_UPDATE         +94.510s	3 -27.54/-12.58 (-27.00/-12.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +94.517s	3 -35.02/-13.85 (-30.33/-12.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +94.524s	3 -38.64/-11.98 (-33.33/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +94.531s	3
+ event26  GESTURE_SWIPE_BEGIN          +95.009s	3
+ event26  GESTURE_SWIPE_UPDATE         +95.016s	3 -9.63/-0.82 (-15.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +95.023s	3 -15.28/-1.02 (-20.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +95.030s	3 -19.35/-0.83 (-23.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +95.036s	3 -22.23/-0.90 (-24.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +95.043s	3
+ event26  GESTURE_SWIPE_BEGIN          +95.492s	3
+ event26  GESTURE_SWIPE_UPDATE         +95.499s	3 -16.41/-0.26 (-21.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +95.506s	3 -19.38/-1.94 (-23.33/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +95.512s	3 -17.86/-3.57 (-21.67/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +95.519s	3
+ event26  GESTURE_SWIPE_BEGIN          +96.017s	3
+ event26  GESTURE_SWIPE_UPDATE         +96.023s	3 -27.24/ 3.99 (-27.33/ 4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +96.031s	3 -41.27/ 3.86 (-35.67/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +96.037s	3 -46.25/-0.86 (-36.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +96.044s	3
+ event26  GESTURE_SWIPE_BEGIN          +96.536s	3
+ event26  GESTURE_SWIPE_UPDATE         +96.543s	3 10.11/ 2.95 (16.00/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +96.549s	3 10.15/ 3.02 (15.67/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +96.556s	3  4.70/ 1.21 (10.33/ 2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +96.563s	3  2.34/ 0.00 ( 6.67/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +96.570s	3  1.34/ 0.19 ( 4.67/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      6  +96.577s	3  0.74/-0.41 ( 3.00/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      7  +96.584s	3  1.25/-0.38 ( 4.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      8  +96.591s	3  0.65/-0.49 ( 2.67/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      9  +96.597s	3  0.44/-0.22 ( 2.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     10  +96.604s	3  0.28/-0.35 ( 1.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     11  +96.611s	3  0.12/ 0.00 ( 0.67/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     12  +96.618s	3  0.07/-0.34 ( 0.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     13  +96.625s	3  0.12/-0.19 ( 0.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     14  +96.632s	3 -0.06/-0.12 (-0.33/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     15  +96.639s	3 -0.12/-0.19 (-0.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     16  +96.646s	3 -0.19/-0.19 (-1.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     17  +96.652s	3 -0.34/-0.14 (-1.67/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     18  +96.659s	3 -0.19/-0.12 (-1.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     19  +96.666s	3 -0.53/-0.23 (-2.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     20  +96.673s	3 -0.52/-0.15 (-2.33/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     21  +96.680s	3 -0.62/-0.23 (-2.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     22  +96.687s	3 -0.62/ 0.08 (-2.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     23  +96.694s	3 -0.51/ 0.00 (-2.33/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     24  +96.701s	3 -1.47/-0.20 (-5.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     25  +96.707s	3 -1.51/ 0.10 (-5.00/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     26  +96.715s	3 -1.74/ 0.10 (-5.67/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     27  +96.721s	3 -4.07/ 0.29 (-9.33/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     28  +96.728s	3 -8.21/ 0.57 (-14.33/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     29  +96.735s	3 -20.23/ 0.00 (-24.00/ 0.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     30  +96.742s	3 -39.69/ 1.18 (-33.67/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     31  +96.749s	3 -61.94/-1.42 (-43.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     32  +96.756s	3 -77.57/-2.59 (-50.00/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     33  +96.762s	3 -43.56/-1.24 (-35.00/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     34  +96.770s	3 -36.66/-1.83 (-33.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE     35  +96.776s	3 -35.48/-1.49 (-31.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +96.783s	3
+ event26  GESTURE_SWIPE_BEGIN          +97.246s	3
+ event26  GESTURE_SWIPE_UPDATE         +97.253s	3 -42.32/-14.24 (-34.67/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +97.259s	3 -63.92/-17.34 (-43.00/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +97.266s	3 -61.50/-14.78 (-43.00/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +97.273s	3
+ event26  GESTURE_SWIPE_BEGIN          +97.784s	3
+ event26  GESTURE_SWIPE_UPDATE         +97.790s	3 68.29/ 3.51 (45.33/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +97.798s	3 90.26/17.94 (55.33/11.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +97.805s	3
+ event26  GESTURE_SWIPE_BEGIN          +98.269s	3
+ event26  GESTURE_SWIPE_UPDATE         +98.275s	3 44.48/-0.42 (35.33/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +98.283s	3 49.09/ 5.92 (38.67/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +98.290s	3
+ event26  GESTURE_SWIPE_BEGIN          +98.765s	3
+ event26  GESTURE_SWIPE_UPDATE         +98.772s	3 110.29/11.80 (62.33/ 6.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +98.779s	3
+ event26  GESTURE_SWIPE_BEGIN          +99.249s	3
+ event26  GESTURE_SWIPE_UPDATE         +99.256s	3 108.60/29.62 (62.33/17.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +99.263s	3
+ event26  GESTURE_SWIPE_BEGIN          +99.734s	3
+ event26  GESTURE_SWIPE_UPDATE         +99.741s	3 60.06/ 2.79 (43.00/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +99.748s	3 73.43/17.85 (48.00/11.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +99.755s	3
+ event26  GESTURE_SWIPE_BEGIN          +100.233s	3
+ event26  GESTURE_SWIPE_UPDATE         +100.240s	3 59.81/-13.02 (41.33/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +100.247s	3 58.47/-0.92 (42.33/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +100.254s	3
+ event26  GESTURE_SWIPE_BEGIN          +100.695s	3
+ event26  GESTURE_SWIPE_UPDATE         +100.702s	3 -40.32/-1.16 (-34.67/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +100.710s	3 -43.13/-0.78 (-37.00/-0.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +100.717s	3
+ event26  GESTURE_SWIPE_BEGIN          +101.209s	3
+ event26  GESTURE_SWIPE_UPDATE         +101.215s	3 57.75/12.11 (41.33/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +101.222s	3 61.83/12.46 (43.00/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +101.229s	3
+ event26  GESTURE_SWIPE_BEGIN          +101.728s	3
+ event26  GESTURE_SWIPE_UPDATE         +101.735s	3 28.89/ 8.06 (28.67/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +101.742s	3 30.80/ 8.60 (28.67/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +101.749s	3 31.90/ 9.57 (30.00/ 9.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +101.756s	3
+ event26  GESTURE_SWIPE_BEGIN          +102.206s	3
+ event26  GESTURE_SWIPE_UPDATE         +102.213s	3 -29.76/-10.98 (-28.00/-10.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +102.220s	3 -28.81/-11.32 (-28.00/-11.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +102.226s	3 -30.63/-9.97 (-28.67/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +102.234s	3 -31.02/-10.34 (-30.00/-10.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +102.241s	3
+ event26  GESTURE_SWIPE_BEGIN          +102.703s	3
+ event26  GESTURE_SWIPE_UPDATE         +102.710s	3 59.49/ 4.22 (42.33/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +102.717s	3 43.11/ 8.86 (35.67/ 7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +102.723s	3 60.44/16.44 (41.67/11.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +102.730s	3
+ event26  GESTURE_SWIPE_BEGIN          +103.193s	3
+ event26  GESTURE_SWIPE_UPDATE         +103.200s	3 33.38/-5.03 (31.00/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +103.207s	3 36.26/-0.37 (33.00/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +103.214s	3 48.28/ 3.91 (37.00/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +103.221s	3
+ event26  GESTURE_SWIPE_BEGIN          +103.683s	3
+ event26  GESTURE_SWIPE_UPDATE         +103.690s	3 36.87/-11.77 (31.33/-10.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +103.697s	3 50.70/-11.80 (38.67/-9.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +103.704s	3 39.39/-4.63 (34.00/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +103.711s	3
+ event26  GESTURE_SWIPE_BEGIN          +104.203s	3
+ event26  GESTURE_SWIPE_UPDATE         +104.209s	3 -13.03/-1.42 (-18.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +104.216s	3 -15.34/-0.75 (-20.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +104.223s	3 -15.54/-0.76 (-20.33/-1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +104.230s	3
+ event26  GESTURE_SWIPE_BEGIN          +104.728s	3
+ event26  GESTURE_SWIPE_UPDATE         +104.735s	3 -57.66/ 0.46 (-42.00/ 0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +104.742s	3 -67.55/-2.00 (-45.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +104.749s	3
+ event26  GESTURE_SWIPE_BEGIN          +105.206s	3
+ event26  GESTURE_SWIPE_UPDATE         +105.213s	3 34.63/-23.22 (29.33/-19.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +105.219s	3 37.82/-17.67 (30.67/-14.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +105.226s	3 34.73/-10.35 (31.33/-9.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +105.233s	3
+ event26  GESTURE_SWIPE_BEGIN          +105.688s	3
+ event26  GESTURE_SWIPE_UPDATE         +105.695s	3 -62.92/12.58 (-43.33/ 8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +105.702s	3 -72.67/12.88 (-47.00/ 8.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +105.709s	3
+ event26  GESTURE_SWIPE_BEGIN          +106.157s	3
+ event26  GESTURE_SWIPE_UPDATE         +106.164s	3 -47.53/ 4.21 (-37.67/ 3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +106.171s	3 -63.69/ 9.53 (-42.33/ 6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +106.178s	3
+ event26  GESTURE_HOLD_BEGIN           +106.618s	2
+ event26  GESTURE_HOLD_END             +106.661s	2
+ event26  GESTURE_SWIPE_BEGIN          +107.116s	3
+ event26  GESTURE_SWIPE_UPDATE         +107.123s	3 85.04/28.35 (53.00/17.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +107.130s	3
+ event26  GESTURE_SWIPE_BEGIN          +107.608s	3
+ event26  GESTURE_SWIPE_UPDATE         +107.615s	3 21.77/-23.56 (20.33/-22.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +107.622s	3 20.23/-12.20 (22.67/-13.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +107.628s	3 25.14/-8.60 (25.33/-8.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +107.636s	3 27.95/-4.82 (29.00/-5.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +107.642s	3 30.54/ 1.09 (28.00/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      6  +107.649s	3 31.61/ 6.25 (30.33/ 6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +107.656s	3
+ event26  GESTURE_SWIPE_BEGIN          +108.104s	3
+ event26  GESTURE_SWIPE_UPDATE         +108.111s	3 37.65/ 2.66 (33.00/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +108.118s	3 46.77/ 9.52 (37.67/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +108.125s	3 46.66/14.09 (35.33/10.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +108.132s	3
+ event26  GESTURE_SWIPE_BEGIN          +108.601s	3
+ event26  GESTURE_SWIPE_UPDATE         +108.608s	3 114.75/19.52 (64.67/11.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +108.615s	3
+ event26  GESTURE_SWIPE_BEGIN          +109.049s	3
+ event26  GESTURE_SWIPE_UPDATE         +109.056s	3 -24.12/-1.53 (-26.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +109.063s	3 -11.91/ 0.45 (-17.67/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +109.069s	3 -15.08/ 0.50 (-20.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +109.076s	3 -14.34/ 1.46 (-19.67/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      5  +109.083s	3 -14.08/ 1.67 (-19.67/ 2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +109.090s	3
+ event26  GESTURE_SWIPE_BEGIN          +109.561s	3
+ event26  GESTURE_SWIPE_UPDATE         +109.568s	3 -37.17/ 1.50 (-33.00/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +109.575s	3 -30.07/ 3.07 (-29.33/ 3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +109.582s	3
+ event26  GESTURE_SWIPE_BEGIN          +110.065s	3
+ event26  GESTURE_SWIPE_UPDATE         +110.072s	3 -36.46/-3.84 (-31.67/-3.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +110.079s	3 -24.47/-2.17 (-26.33/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +110.086s	3
+ event26  GESTURE_SWIPE_BEGIN          +110.542s	3
+ event26  GESTURE_SWIPE_UPDATE         +110.549s	3 -22.75/-2.10 (-25.33/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +110.556s	3 -30.74/-2.03 (-30.33/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +110.563s	3 -35.80/-2.98 (-32.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +110.570s	3 -25.04/-1.56 (-26.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +110.577s	3
+ event26  GESTURE_SWIPE_BEGIN          +111.055s	3
+ event26  GESTURE_SWIPE_UPDATE         +111.062s	3 -37.42/-3.02 (-33.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +111.069s	3 -48.24/-4.74 (-37.33/-3.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +111.076s	3 -38.75/-3.04 (-34.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +111.083s	3
+ event26  GESTURE_SWIPE_BEGIN          +111.525s	3
+ event26  GESTURE_SWIPE_UPDATE         +111.532s	3 -35.46/-6.58 (-32.33/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +111.538s	3 -37.10/-4.69 (-31.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +111.545s	3 -34.42/-2.54 (-31.67/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      4  +111.552s	3 -36.86/-3.38 (-32.67/-3.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +111.559s	3
+ event26  GESTURE_SWIPE_BEGIN          +112.024s	3
+ event26  GESTURE_SWIPE_UPDATE         +112.030s	3 -32.75/-2.91 (-30.00/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +112.037s	3 -41.23/-2.00 (-34.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +112.044s	3 -29.31/-1.35 (-29.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +112.051s	3
+ event26  GESTURE_SWIPE_BEGIN          +112.520s	3
+ event26  GESTURE_SWIPE_UPDATE         +112.527s	3 53.55/10.35 (39.67/ 7.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +112.534s	3 61.11/17.11 (41.67/11.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +112.541s	3
+ event26  GESTURE_SWIPE_BEGIN          +113.018s	3
+ event26  GESTURE_SWIPE_UPDATE         +113.025s	3 86.98/-11.74 (54.33/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +113.032s	3 66.82/-2.44 (45.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +113.039s	3
+ event26  GESTURE_SWIPE_BEGIN          +113.517s	3
+ event26  GESTURE_SWIPE_UPDATE         +113.523s	3 87.06/ 1.10 (53.00/ 0.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +113.530s	3 74.74/ 9.60 (49.33/ 6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +113.537s	3
+ event26  GESTURE_SWIPE_BEGIN          +114.022s	3
+ event26  GESTURE_SWIPE_UPDATE         +114.029s	3 90.33/13.22 (54.67/ 8.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +114.036s	3 90.02/20.43 (54.33/12.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +114.043s	3
+ event26  GESTURE_SWIPE_BEGIN          +114.520s	3
+ event26  GESTURE_SWIPE_UPDATE         +114.527s	3 73.46/ 3.00 (49.00/ 2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +114.534s	3
+ event26  GESTURE_SWIPE_BEGIN          +115.011s	3
+ event26  GESTURE_SWIPE_UPDATE         +115.018s	3 103.70/ 7.93 (61.00/ 4.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +115.025s	3
+ event26  GESTURE_SWIPE_BEGIN          +115.482s	3
+ event26  GESTURE_SWIPE_UPDATE         +115.489s	3 -47.56/-2.50 (-38.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +115.495s	3 -66.86/-2.00 (-44.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +115.502s	3 -48.08/-2.53 (-38.00/-2.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +115.509s	3
+ event26  GESTURE_SWIPE_BEGIN          +115.966s	3
+ event26  GESTURE_SWIPE_UPDATE         +115.972s	3 -42.65/-8.20 (-34.67/-6.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +115.979s	3 -46.01/-5.80 (-37.00/-4.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +115.986s	3 -60.90/-8.56 (-42.67/-6.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +115.993s	3
+ event26  GESTURE_SWIPE_BEGIN          +116.436s	3
+ event26  GESTURE_SWIPE_UPDATE         +116.442s	3 -57.42/-3.80 (-40.33/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +116.450s	3 -40.12/-3.09 (-34.67/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +116.457s	3 -60.84/-1.87 (-43.33/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +116.464s	3
+ event26  GESTURE_SWIPE_BEGIN          +116.920s	3
+ event26  GESTURE_SWIPE_UPDATE         +116.927s	3 -95.60/-37.90 (-56.33/-22.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +116.934s	3 -79.51/-28.81 (-49.67/-18.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +116.941s	3
+ event26  GESTURE_SWIPE_BEGIN          +117.398s	3
+ event26  GESTURE_SWIPE_UPDATE         +117.405s	3 -71.61/-24.91 (-46.00/-16.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +117.412s	3 -64.27/-21.91 (-44.00/-15.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +117.419s	3
+ event26  GESTURE_HOLD_BEGIN           +117.860s	1
+ event26  GESTURE_HOLD_END             +117.973s	1
+ event26  GESTURE_SWIPE_BEGIN          +118.441s	3
+ event26  GESTURE_SWIPE_UPDATE         +118.448s	3 -55.93/-16.04 (-40.67/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +118.455s	3 -57.82/-16.92 (-41.00/-12.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +118.462s	3
+ event26  GESTURE_SWIPE_BEGIN          +118.911s	3
+ event26  GESTURE_SWIPE_UPDATE         +118.918s	3 44.01/-12.27 (34.67/-9.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +118.925s	3 62.06/-7.99 (44.00/-5.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +118.931s	3 81.12/-4.27 (50.67/-2.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +118.938s	3
+ event26  GESTURE_SWIPE_BEGIN          +119.394s	3
+ event26  GESTURE_SWIPE_UPDATE         +119.401s	3 55.86/-5.36 (41.67/-4.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +119.408s	3 66.74/ 1.47 (45.33/ 1.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +119.415s	3
+ event26  GESTURE_SWIPE_BEGIN          +119.886s	3
+ event26  GESTURE_SWIPE_UPDATE         +119.892s	3 81.31/-0.55 (49.67/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +119.900s	3 65.21/ 7.04 (46.33/ 5.00 unaccelerated)
+ event26  GESTURE_SWIPE_END            +119.907s	3
+ event26  GESTURE_SWIPE_BEGIN          +120.378s	3
+ event26  GESTURE_SWIPE_UPDATE         +120.385s	3 45.21/-16.79 (35.00/-13.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +120.392s	3 54.58/-8.57 (40.33/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +120.398s	3 68.01/-2.54 (44.67/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +120.405s	3
+ event26  GESTURE_SWIPE_BEGIN          +120.890s	3
+ event26  GESTURE_SWIPE_UPDATE         +120.897s	3 86.91/15.65 (53.67/ 9.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +120.904s	3
+ event26  GESTURE_SWIPE_BEGIN          +121.395s	3
+ event26  GESTURE_SWIPE_UPDATE         +121.401s	3 26.84/ 1.33 (27.00/ 1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +121.408s	3 34.70/-0.36 (32.00/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +121.415s	3 50.13/-0.43 (39.00/-0.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +121.422s	3
+ event26  GESTURE_SWIPE_BEGIN          +121.935s	3
+ event26  GESTURE_SWIPE_UPDATE         +121.942s	3 -31.94/-4.56 (-30.33/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +121.949s	3 -21.31/-2.04 (-24.33/-2.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +121.956s	3
+ event26  GESTURE_SWIPE_BEGIN          +122.425s	3
+ event26  GESTURE_SWIPE_UPDATE         +122.432s	3 -24.83/-1.24 (-26.67/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +122.439s	3 -27.55/-1.62 (-28.33/-1.67 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      3  +122.447s	3 -24.52/-1.21 (-27.00/-1.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +122.454s	3
+ event26  GESTURE_SWIPE_BEGIN          +122.910s	3
+ event26  GESTURE_SWIPE_UPDATE         +122.917s	3 -44.99/-9.08 (-36.33/-7.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +122.924s	3 -43.12/-7.66 (-35.67/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +122.931s	3
+ event26  GESTURE_SWIPE_BEGIN          +123.429s	3
+ event26  GESTURE_SWIPE_UPDATE         +123.436s	3 -31.70/-4.53 (-30.33/-4.33 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +123.443s	3 -36.62/-7.25 (-32.00/-6.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +123.450s	3
+ event26  GESTURE_SWIPE_BEGIN          +123.907s	3
+ event26  GESTURE_SWIPE_UPDATE         +123.914s	3 -75.23/-18.29 (-48.00/-11.67 unaccelerated)
+ event26  GESTURE_SWIPE_END            +123.921s	3
+ event26  GESTURE_SWIPE_BEGIN          +124.391s	3
+ event26  GESTURE_SWIPE_UPDATE         +124.397s	3 -73.80/-30.05 (-46.67/-19.00 unaccelerated)
+ event26  GESTURE_SWIPE_UPDATE      2  +124.404s	3 -71.44/-25.19 (-46.33/-16.33 unaccelerated)
+ event26  GESTURE_SWIPE_END            +124.411s	3

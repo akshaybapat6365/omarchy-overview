@@ -1,0 +1,9 @@
+.cache/
+.omc/
+*.bak
+*.bak.*
+__pycache__/
+*.pyc
+pkg/
+src/
+*.pkg.tar.*
