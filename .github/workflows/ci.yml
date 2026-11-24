@@ -9,16 +9,18 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    container:
+      image: archlinux:latest
     steps:
+      - name: Install git, Lua 5.5 & Node
+        run: pacman -Syu --noconfirm git lua nodejs
       - uses: actions/checkout@v4
-      - name: Install Lua & Node
-        run: sudo apt-get update && sudo apt-get install -y lua5.4 nodejs
       - name: Shell & JS syntax checks
         run: |
           bash -n install.sh uninstall.sh PKGBUILD tests/lint.sh
           for f in *.js; do sed 's/^\.pragma .*//' "$f" | node --input-type=commonjs --check; done
-      - name: Run Lua unit test suite
-        run: lua5.4 tests/lua/run.lua
+      - name: Run Lua 5.5 unit test suite (144 tests)
+        run: lua tests/lua/run.lua
       - name: Sandboxed install & uninstall test
         run: |
           TEST_HOME="$(mktemp -d)"
