@@ -71,10 +71,14 @@ if not load_overview() then
   end
 end
 hl.gesture({ fingers = 3, direction = "pinchout", action = function() hl.exec_cmd("omarchy-menu toggle apps") end })
+hl.gesture({ fingers = 3, direction = "pinchin", action = function() hl.exec_cmd("omarchy-shell shell toggle akshaybapat.everything") end })
 
 hl.gesture({ fingers = 4, direction = "left", action = function() hl.dispatch(hl.dsp.window.move({ workspace = "r-1", follow = true })) end })
 hl.gesture({ fingers = 4, direction = "right", action = function() hl.dispatch(hl.dsp.window.move({ workspace = "r+1", follow = true })) end })
-hl.gesture({ fingers = 4, direction = "pinchin", action = function() hl.exec_cmd("omarchy-menu toggle apps") end })
+hl.gesture({ fingers = 4, direction = "pinchin", action = function()
+  hl.dispatch(hl.dsp.window.move({ workspace = "special:omarchy-minimized", follow = false }))
+  hl.exec_cmd([[omarchy-shell osd show '{"icon":"󰖰","message":"Hidden to Shelf","duration":900}']])
+end })
 hl.gesture({ fingers = 4, direction = "pinchout", action = function() hl.dispatch(hl.dsp.focus({ workspace = "empty" })) end })
 hl.gesture({ fingers = 5, direction = "swipe", action = function() hl.exec_cmd("omarchy-menu toggle apps") end })
 

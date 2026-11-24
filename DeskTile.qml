@@ -296,8 +296,8 @@ Item {
                     gradient: Gradient {
                         orientation: Gradient.Horizontal
                         GradientStop { position: 0.0; color: "transparent" }
-                        GradientStop { position: 0.25; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.72 : 0.20) }
-                        GradientStop { position: 0.75; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.72 : 0.20) }
+                        GradientStop { position: 0.28; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.72 : 0.18) }
+                        GradientStop { position: 0.72; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.56 : 0.14) }
                         GradientStop { position: 1.0; color: "transparent" }
                     }
                 }
@@ -359,6 +359,28 @@ Item {
                       ? (tile.scene.lightMode ? Qt.rgba(0, 0, 0, 0.16) : Qt.rgba(1, 1, 1, 0.18))
                       : (tile.scene.lightMode ? Qt.rgba(0, 0, 0, 0.14) : Qt.rgba(1, 1, 1, 0.16))
         Behavior on border.color { ColorAnimation { duration: 140 } }
+    }
+    // Refined 1px top-edge specular Fresnel catchlight on active/viewed/interactive DeskTiles,
+    // unifying Overview's top strip with shell.toml's Liquid Glass optical language.
+    Rectangle {
+        visible: !tile.isPlus && opacity > 0.01
+        anchors.top: face.top
+        anchors.topMargin: Math.max(1, tile.u)
+        anchors.left: face.left
+        anchors.right: face.right
+        anchors.leftMargin: face.radius * 0.85
+        anchors.rightMargin: face.radius * 0.85
+        height: Math.max(1, tile.u)
+        opacity: tile.active || tile.lifted || tile.dropTarget ? 1.0
+                 : (tile.viewed || tile.hot ? 0.75 : 0.28)
+        Behavior on opacity { NumberAnimation { duration: 140; easing.type: Easing.OutCubic } }
+        gradient: Gradient {
+            orientation: Gradient.Horizontal
+            GradientStop { position: 0.0; color: "transparent" }
+            GradientStop { position: 0.28; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.62 : 0.18) }
+            GradientStop { position: 0.72; color: Qt.rgba(1, 1, 1, tile.scene.lightMode ? 0.48 : 0.14) }
+            GradientStop { position: 1.0; color: "transparent" }
+        }
     }
 
     // Active/lifted/dropTarget state drives the inline number badge below the tile,

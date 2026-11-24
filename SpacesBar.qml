@@ -346,11 +346,28 @@ Item {
                 Behavior on opacity { NumberAnimation { duration: 140; easing.type: Easing.OutCubic } }
                 Behavior on slotX { enabled: landingSlot.on && landingSlot.opacity > 0.9; NumberAnimation { duration: 200; easing.type: Easing.OutCubic } }
                 Rectangle {
+                    id: landingSlotBox
                     anchors.fill: parent
                     radius: 14 * bar.u
                     color: Qt.rgba(bar.scene.accent.r, bar.scene.accent.g, bar.scene.accent.b, bar.scene.lightMode ? 0.18 : 0.14)
                     border.width: 1.5 * bar.u
                     border.color: Qt.rgba(bar.scene.accent.r, bar.scene.accent.g, bar.scene.accent.b, bar.scene.lightMode ? 0.62 : 0.52)
+                    Rectangle {
+                        anchors.top: parent.top
+                        anchors.topMargin: Math.max(1, bar.u)
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: landingSlotBox.radius * 0.85
+                        anchors.rightMargin: landingSlotBox.radius * 0.85
+                        height: Math.max(1, bar.u)
+                        gradient: Gradient {
+                            orientation: Gradient.Horizontal
+                            GradientStop { position: 0.0; color: "transparent" }
+                            GradientStop { position: 0.28; color: Qt.rgba(1, 1, 1, bar.scene.lightMode ? 0.58 : 0.18) }
+                            GradientStop { position: 0.72; color: Qt.rgba(1, 1, 1, bar.scene.lightMode ? 0.44 : 0.14) }
+                            GradientStop { position: 1.0; color: "transparent" }
+                        }
+                    }
                 }
             }
             Repeater {

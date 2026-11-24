@@ -346,5 +346,82 @@ Item {
             tryVerify(function () { return !sc.isOpen; }, 1500, "Esc closes overview");
             compare(JSON.stringify(root.chosen), "[]", "Esc cancels without switching desks");
         }
+
+        function findByObjectName(item, name) {
+            var stack = [item];
+            while (stack.length) {
+                var cur = stack.pop();
+                if (cur && cur.objectName === name) return cur;
+                if (cur && cur.children) {
+                    for (var i = 0; i < cur.children.length; i++) stack.push(cur.children[i]);
+                }
+            }
+            return null;
+        }
+
+        function test_power_shortcuts_ctrl_digits_ctrl_n_and_search_coexistence() {
+            openAndFocus();
+            compare(sc.viewedDesk, 3);
+
+            // Bottom Liquid Glass hint pill is visible at subtle low visual weight when settled and idle.
+            var hint = findByObjectName(sc, "interactionHintPill");
+            verify(hint !== null, "interactionHintPill exists");
+            tryVerify(function () { return hint.visible && Math.abs(hint.opacity - 0.62) < 0.03; }, 800,
+                      "hint pill settles at 0.62 opacity when idle (got " + hint.opacity + ")");
+
+            // 1. Ctrl+1..9 switches viewedDesk smoothly (including empty desk 4); second press enters it.
+            key(Qt.Key_1, Qt.ControlModifier); waitSettled();
+            compare(sc.viewedDesk, 1, "Ctrl+1 jumps to desk 1");
+            verify(sc.isOpen && !sc.closing, "first Ctrl+1 stays open");
+            key(Qt.Key_4, Qt.ControlModifier); waitSettled();
+            compare(sc.viewedDesk, 4, "Ctrl+4 jumps to empty desk 4");
+            verify(sc.gridOrder.length === 0, "empty desk 4 grid is empty");
+            key(Qt.Key_4, Qt.ControlModifier);
+            tryVerify(function () { return !sc.isOpen; }, 1500, "second Ctrl+4 enters empty desk 4");
+            compare(JSON.stringify(root.chosen), "[4]", "second Ctrl+4 activates desk 4");
+
+            // 2. Ctrl+Left / Ctrl+Right glides across desks (including empty desk 4 and + New desk 7).
+            root.chosen = [];
+            openAndFocus();
+            compare(sc.viewedDesk, 3);
+            key(Qt.Key_Right, Qt.ControlModifier); waitSettled();
+            compare(sc.viewedDesk, 4, "Ctrl+Right steps into empty desk 4");
+            key(Qt.Key_Left, Qt.ControlModifier); waitSettled();
+            compare(sc.viewedDesk, 3, "Ctrl+Left steps back to desk 3");
+
+            // 3. Ctrl+N jumps straight to "+ New desk" (7); second Ctrl+N opens fresh empty desk 7.
+            key(Qt.Key_N, Qt.ControlModifier); waitSettled();
+            compare(sc.viewedDesk, 7, "Ctrl+N jumps to + New desk (7)");
+            verify(sc.isOpen && !sc.closing && sc.gridOrder.length === 0, "first Ctrl+N views new desk 7");
+            key(Qt.Key_N, Qt.ControlModifier);
+            tryVerify(function () { return !sc.isOpen; }, 1500, "second Ctrl+N enters fresh empty desk 7");
+            compare(JSON.stringify(root.chosen), "[7]", "second Ctrl+N activates new desk 7");
+
+            // 4. Instant type-to-search (bare digits & letters) works with zero conflict and hides the hint pill;
+            //    Ctrl+4 while searching clears query and jumps cleanly to desk 4.
+            root.chosen = [];
+            openAndFocus();
+            keyClick(Qt.Key_1);
+            keyClick(Qt.Key_H);
+            keyClick(Qt.Key_T);
+            wait(60);
+            compare(sc.query, "1ht", "bare digits and letters start instant search seamlessly");
+            tryVerify(function () { return hint.opacity < 0.02; }, 800, "hint pill fades out while searching");
+            key(Qt.Key_4, Qt.ControlModifier); waitSettled();
+            compare(sc.query, "", "Ctrl+4 clears active search query");
+            compare(sc.viewedDesk, 4, "Ctrl+4 jumps to desk 4 after clearing search");
+
+            // 5. Ctrl+Shift+1..9 and Ctrl+Shift+N still move windows without conflict, and ResultPill hides the hint pill.
+            key(Qt.Key_3, Qt.ControlModifier); waitSettled();
+            sc.selectedId = "0xa3"; sc.showSelection = true;
+            key(Qt.Key_Percent, Qt.ControlModifier | Qt.ShiftModifier); waitOps(1);   // Ctrl+Shift+5 (US '%')
+            compare(canon(lastOp()), canon({ op: "move", win: "0xa3", desk: 5 }), "Ctrl+Shift+5 moves selected window to desk 5");
+            verify(sc.pillState() !== null && sc.pillState().text === "Moved", "ResultPill is up");
+            tryVerify(function () { return hint.opacity < 0.02; }, 800, "hint pill fades out while ResultPill is shown");
+
+            sc.selectedId = "0xa4"; sc.showSelection = true;
+            key(Qt.Key_N, Qt.ControlModifier | Qt.ShiftModifier); waitOps(2);
+            compare(canon(lastOp()), canon({ op: "newdesk", win: "0xa4", desk: 7 }), "Ctrl+Shift+N moves selected window to new desk 7");
+        }
     }
 }

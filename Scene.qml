@@ -838,6 +838,13 @@ Item {
     }
     function newEmptyDesk() { if (newDeskId > 0) pageTo(newDeskId); }
     function viewDesk(n) { if (deskOrder.indexOf(n) >= 0) pageTo(n); }
+    function stepDesk(d) {
+        if (!deskOrder.length || !d) return;
+        if (query.length) { query = ""; selectedId = ""; showSelection = false; }
+        var i = pageIndex(viewedDesk);
+        var j = Math.max(0, Math.min(deskOrder.length - 1, (i < 0 ? 0 : i) + d));
+        if (j !== i) pageTo(deskOrder[j]);
+    }
 
     // Dragging (DragController.qml, lane 3). Its op requests come here, so drops,
     // keys and undo share one path, one result pill and one undo stack.
@@ -928,22 +935,39 @@ Item {
                 else if (viewedDesk !== activeDesk) chooseDesk(viewedDesk);
                 else close("back");
             }
-        } else if (ctrl && shift && n) {
+        } else if (!dragging && ctrl && shift && n) {
             moveSelectedTo(n);
-        } else if (ctrl && shift && k === Qt.Key_N) {
+        } else if (!dragging && ctrl && shift && k === Qt.Key_N) {
             moveSelectedToNew();
-        } else if (ctrl && shift && lr) {
+        } else if (!dragging && ctrl && shift && lr) {
             moveSelectedBy(lr);
-        } else if (alt && shift && lr) {
+        } else if (!dragging && alt && shift && lr) {
             moveViewedDeskBy(lr);
-        } else if (ctrl && !shift && k === Qt.Key_N) {
-            newEmptyDesk();
-        } else if (ctrl && !shift && k === Qt.Key_Z) {
+        } else if (!dragging && ctrl && !shift && k === Qt.Key_N) {
+            // Ctrl+N jumps straight to "+ New desk"; pressing Ctrl+N again (or Enter) enters the fresh empty desk.
+            if (newDeskId > 0) {
+                if (viewedDesk === newDeskId && !query.length && !paging) chooseDesk(newDeskId);
+                else {
+                    if (query.length) { query = ""; selectedId = ""; showSelection = false; }
+                    newEmptyDesk();
+                }
+            }
+        } else if (!dragging && ctrl && !shift && k === Qt.Key_Z) {
             undo();
-        } else if ((ctrl || alt) && !shift && n) {
-            // Ctrl or Alt with a number views that desk (it stays open); a bare
-            // number is the first letter of a search ("1Password").
-            viewDesk(n);
+        } else if (!dragging && (ctrl || alt) && !shift && n) {
+            // Ctrl or Alt with a number smoothly switches to that desk (empty or + New desk included);
+            // pressing it again on the already-viewed desk enters it (matching tile tap).
+            // A bare number is the first letter of a search ("1Password").
+            if (deskOrder.indexOf(n) >= 0) {
+                if (viewedDesk === n && !query.length && !paging) chooseDesk(n);
+                else {
+                    if (query.length) { query = ""; selectedId = ""; showSelection = false; }
+                    viewDesk(n);
+                }
+            }
+        } else if (!dragging && (ctrl || alt) && !shift && lr) {
+            // Ctrl+Left / Ctrl+Right glides across desks (including empty desks and "+ New desk").
+            stepDesk(lr);
         } else if (dragging && lr && typeof dragCtl.aim === "function") {
             var cur = dragCtl.target && dragCtl.target.id ? dragCtl.target.id : viewedDesk;
             var i = deskOrder.indexOf(cur) + lr;
@@ -1173,9 +1197,25 @@ Item {
             id: searchCapsule
             anchors.fill: parent
             radius: height / 2
-            color: ov.chipColor
+            color: ov.lightMode ? ov.chipColor : Qt.rgba(16 / 255, 17 / 255, 22 / 255, 0.84)
             border.width: Math.max(1, ov.u)
             border.color: ov.lightMode ? Qt.rgba(0, 0, 0, 0.14) : Qt.rgba(1, 1, 1, 0.18)
+            // Soft internal overhead glass meniscus under the top bezel.
+            Rectangle {
+                anchors.top: parent.top
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.topMargin: Math.max(1, ov.u)
+                anchors.leftMargin: searchCapsule.radius * 0.55
+                anchors.rightMargin: searchCapsule.radius * 0.55
+                height: 8 * ov.u
+                radius: height / 2
+                gradient: Gradient {
+                    GradientStop { position: 0.0; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.24 : 0.045) }
+                    GradientStop { position: 1.0; color: "transparent" }
+                }
+            }
+            // Refined 1px top-edge specular Fresnel catchlight (45° top-left bias, fading cleanly to edges).
             Rectangle {
                 anchors.top: parent.top
                 anchors.topMargin: Math.max(1, ov.u)
@@ -1187,8 +1227,8 @@ Item {
                 gradient: Gradient {
                     orientation: Gradient.Horizontal
                     GradientStop { position: 0.0; color: "transparent" }
-                    GradientStop { position: 0.25; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.80 : 0.24) }
-                    GradientStop { position: 0.75; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.80 : 0.24) }
+                    GradientStop { position: 0.26; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.80 : 0.22) }
+                    GradientStop { position: 0.74; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.62 : 0.16) }
                     GradientStop { position: 1.0; color: "transparent" }
                 }
             }
@@ -1288,9 +1328,10 @@ Item {
             id: idleSearchPill
             anchors.fill: parent
             radius: height / 2
-            color: ov.lightMode ? Qt.rgba(1, 1, 1, 0.68) : Qt.rgba(1, 1, 1, 0.08)
+            color: ov.lightMode ? Qt.rgba(1, 1, 1, 0.72) : Qt.rgba(16 / 255, 17 / 255, 22 / 255, 0.56)
             border.width: Math.max(1, ov.u)
             border.color: ov.lightMode ? Qt.rgba(0, 0, 0, 0.13) : Qt.rgba(1, 1, 1, 0.16)
+            // Refined 1px top-edge specular Fresnel catchlight fading to transparent at edges.
             Rectangle {
                 anchors.top: parent.top
                 anchors.topMargin: Math.max(1, ov.u)
@@ -1302,8 +1343,8 @@ Item {
                 gradient: Gradient {
                     orientation: Gradient.Horizontal
                     GradientStop { position: 0.0; color: "transparent" }
-                    GradientStop { position: 0.25; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.72 : 0.22) }
-                    GradientStop { position: 0.75; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.72 : 0.22) }
+                    GradientStop { position: 0.28; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.74 : 0.18) }
+                    GradientStop { position: 0.72; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.58 : 0.14) }
                     GradientStop { position: 1.0; color: "transparent" }
                 }
             }
@@ -1331,6 +1372,129 @@ Item {
                 font.pixelSize: 14 * ov.u
                 font.weight: Font.Medium
                 anchors.verticalCenter: parent.verticalCenter
+            }
+        }
+    }
+
+    // Whisper-quiet Liquid Glass interaction hint pill at the bottom center:
+    // visible only when fully settled and idle; fades smoothly out for ResultPill, drags, search, or close.
+    Item {
+        id: interactionHint
+        objectName: "interactionHintPill"
+        readonly property var scene: ov
+        readonly property bool shown: ov.settled && !ov.dragActive() && !ov.scrolling && !pill.up && ov.query.length === 0
+        readonly property var items: [
+            { cap: "2↔", label: "Swipe desks" },
+            { cap: "Drag", label: "windows / desks" },
+            { cap: "Ctrl+1–9", label: "Jump" },
+            { cap: "Ctrl+N", label: "New desk" },
+            { cap: "Esc", label: "Close" }
+        ]
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 22 * ov.u
+        height: 34 * ov.u
+        width: hintRow.implicitWidth + 32 * ov.u
+        scale: Math.min(1, (ov.width - 64 * ov.u) / Math.max(1, width))
+        opacity: shown ? 0.62 : 0
+        visible: opacity > 0.01
+        Behavior on opacity { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
+        RectangularShadow {
+            anchors.fill: hintCapsule
+            radius: hintCapsule.radius
+            blur: 18 * ov.u
+            offset: Qt.vector2d(0, 4 * ov.u)
+            color: ov.lightMode ? Qt.rgba(0.05, 0.07, 0.15, 0.12) : Qt.rgba(0, 0, 0, 0.42)
+        }
+        Rectangle {
+            id: hintCapsule
+            anchors.fill: parent
+            radius: height / 2
+            color: ov.lightMode ? Qt.rgba(1, 1, 1, 0.76) : Qt.rgba(16 / 255, 17 / 255, 22 / 255, 0.78)
+            border.width: Math.max(1, ov.u)
+            border.color: ov.lightMode ? Qt.rgba(0, 0, 0, 0.12) : Qt.rgba(1, 1, 1, 0.16)
+            // Subtle 1px top-edge specular Fresnel catchlight fading to transparent at edges.
+            Rectangle {
+                anchors.top: parent.top
+                anchors.topMargin: Math.max(1, ov.u)
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.leftMargin: hintCapsule.radius * 0.85
+                anchors.rightMargin: hintCapsule.radius * 0.85
+                height: Math.max(1, ov.u)
+                gradient: Gradient {
+                    orientation: Gradient.Horizontal
+                    GradientStop { position: 0.0; color: "transparent" }
+                    GradientStop { position: 0.28; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.72 : 0.18) }
+                    GradientStop { position: 0.72; color: Qt.rgba(1, 1, 1, ov.lightMode ? 0.56 : 0.14) }
+                    GradientStop { position: 1.0; color: "transparent" }
+                }
+            }
+            Row {
+                id: hintRow
+                anchors.centerIn: parent
+                spacing: 10 * ov.u
+                Repeater {
+                    id: hintRep
+                    model: interactionHint.items
+                    readonly property var sc: ov
+                    delegate: Row {
+                        id: hintItem
+                        required property var modelData
+                        required property int index
+                        readonly property var sc: hintRep.sc
+                        anchors.verticalCenter: parent.verticalCenter
+                        spacing: 7 * hintItem.sc.u
+                        Text {
+                            visible: hintItem.index > 0
+                            anchors.verticalCenter: parent.verticalCenter
+                            rightPadding: 3 * hintItem.sc.u
+                            text: "·"
+                            color: Qt.rgba(hintItem.sc.ink.r, hintItem.sc.ink.g, hintItem.sc.ink.b, hintItem.sc.lightMode ? 0.42 : 0.36)
+                            font.family: hintItem.sc.uiFont
+                            font.pixelSize: 13 * hintItem.sc.u
+                            font.weight: Font.Bold
+                        }
+                        Rectangle {
+                            anchors.verticalCenter: parent.verticalCenter
+                            height: 21 * hintItem.sc.u
+                            width: capLabel.implicitWidth + 13 * hintItem.sc.u
+                            radius: 5.5 * hintItem.sc.u
+                            color: hintItem.sc.lightMode ? Qt.rgba(0, 0, 0, 0.07) : Qt.rgba(1, 1, 1, 0.09)
+                            border.width: Math.max(1, hintItem.sc.u)
+                            border.color: hintItem.sc.lightMode ? Qt.rgba(0, 0, 0, 0.12) : Qt.rgba(1, 1, 1, 0.15)
+                            Rectangle {
+                                anchors.top: parent.top
+                                anchors.topMargin: Math.max(1, hintItem.sc.u)
+                                anchors.left: parent.left
+                                anchors.right: parent.right
+                                anchors.leftMargin: 3 * hintItem.sc.u
+                                anchors.rightMargin: 3 * hintItem.sc.u
+                                height: Math.max(1, hintItem.sc.u)
+                                color: Qt.rgba(1, 1, 1, hintItem.sc.lightMode ? 0.55 : 0.18)
+                            }
+                            Text {
+                                id: capLabel
+                                anchors.centerIn: parent
+                                text: hintItem.modelData.cap
+                                color: hintItem.sc.ink
+                                font.family: hintItem.sc.monoFont
+                                font.pixelSize: 11 * hintItem.sc.u
+                                font.weight: Font.DemiBold
+                                font.features: ({ "tnum": 1 })
+                            }
+                        }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            text: hintItem.modelData.label
+                            color: hintItem.sc.inkSoft
+                            font.family: hintItem.sc.uiFont
+                            font.pixelSize: 12.5 * hintItem.sc.u
+                            font.weight: Font.Medium
+                            font.letterSpacing: -0.05 * hintItem.sc.u
+                        }
+                    }
+                }
             }
         }
     }
