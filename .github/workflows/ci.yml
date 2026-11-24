@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua & Node
+        run: sudo apt-get update && sudo apt-get install -y lua5.4 nodejs
+      - name: Shell & JS syntax checks
+        run: |
+          bash -n install.sh uninstall.sh PKGBUILD tests/lint.sh
+          for f in *.js; do node --check "$f"; done
+      - name: Run Lua unit test suite
+        run: lua5.4 tests/lua/run.lua
+      - name: Sandboxed install & uninstall test
+        run: |
+          TEST_HOME="$(mktemp -d)"
+          HOME="$TEST_HOME" XDG_CONFIG_HOME="$TEST_HOME/.config" ./install.sh --wire-hypr --systemd --no-restart
+          test -f "$TEST_HOME/.config/quickshell/overview/shell.qml"
+          HOME="$TEST_HOME" XDG_CONFIG_HOME="$TEST_HOME/.config" ./uninstall.sh

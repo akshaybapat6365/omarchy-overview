@@ -70,8 +70,14 @@ for bin in qs hyprctl; do
   fi
 done
 
+REAL_HOME="$(getent passwd "$(id -u)" 2>/dev/null | cut -d: -f6 || true)"
+LIVE_USER_HOME=0
+if [[ -n "$REAL_HOME" && "$(readlink -f "$HOME" 2>/dev/null || printf '%s' "$HOME")" == "$(readlink -f "$REAL_HOME" 2>/dev/null || printf '%s' "$REAL_HOME")" ]]; then
+  LIVE_USER_HOME=1
+fi
+
 WAS_ACTIVE=0
-if (( NO_RESTART == 0 )) && command -v systemctl >/dev/null 2>&1; then
+if (( NO_RESTART == 0 && LIVE_USER_HOME == 1 )) && command -v systemctl >/dev/null 2>&1; then
   if systemctl --user is-active --quiet omarchy-overview.service 2>/dev/null; then
     WAS_ACTIVE=1
     echo "==> Stopping running omarchy-overview.service before atomic file update"
@@ -119,7 +125,7 @@ if (( INSTALL_SYSTEMD == 1 )); then
   echo "==> Installing systemd user service into $SYSTEMD_DIR/omarchy-overview.service"
   mkdir -p "$SYSTEMD_DIR"
   install -m 0644 "$SCRIPT_DIR/systemd/omarchy-overview.service" "$SYSTEMD_DIR/omarchy-overview.service"
-  if command -v systemctl >/dev/null 2>&1; then
+  if (( LIVE_USER_HOME == 1 )) && command -v systemctl >/dev/null 2>&1; then
     systemctl --user daemon-reload 2>/dev/null || true
   fi
 fi

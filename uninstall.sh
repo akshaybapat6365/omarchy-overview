@@ -41,7 +41,13 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-if command -v systemctl >/dev/null 2>&1; then
+REAL_HOME="$(getent passwd "$(id -u)" 2>/dev/null | cut -d: -f6 || true)"
+LIVE_USER_HOME=0
+if [[ -n "$REAL_HOME" && "$(readlink -f "$HOME" 2>/dev/null || printf '%s' "$HOME")" == "$(readlink -f "$REAL_HOME" 2>/dev/null || printf '%s' "$REAL_HOME")" ]]; then
+  LIVE_USER_HOME=1
+fi
+
+if (( LIVE_USER_HOME == 1 )) && command -v systemctl >/dev/null 2>&1; then
   systemctl --user disable --now omarchy-overview.service 2>/dev/null || true
 fi
 
@@ -58,7 +64,7 @@ fi
 if [[ -f "$SYSTEMD_DIR/omarchy-overview.service" ]]; then
   rm -f "$SYSTEMD_DIR/omarchy-overview.service"
   echo "Removed: $SYSTEMD_DIR/omarchy-overview.service"
-  command -v systemctl >/dev/null 2>&1 && systemctl --user daemon-reload 2>/dev/null || true
+  (( LIVE_USER_HOME == 1 )) && command -v systemctl >/dev/null 2>&1 && systemctl --user daemon-reload 2>/dev/null || true
 fi
 
 shopt -s nullglob
