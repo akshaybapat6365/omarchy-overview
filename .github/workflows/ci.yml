@@ -16,7 +16,7 @@ jobs:
       - name: Shell & JS syntax checks
         run: |
           bash -n install.sh uninstall.sh PKGBUILD tests/lint.sh
-          for f in *.js; do node --check "$f"; done
+          for f in *.js; do sed 's/^\.pragma .*//' "$f" | node --input-type=commonjs --check; done
       - name: Run Lua unit test suite
         run: lua5.4 tests/lua/run.lua
       - name: Sandboxed install & uninstall test
