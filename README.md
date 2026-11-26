@@ -5,7 +5,7 @@ A native **macOS Mission Control–class workspace & window overview** built in 
 Unlike static grid popups or shell-forking scripts, `omarchy-overview` tracks your fingers 1:1 through Hyprland's compositor event socket (`socket2`) with zero process forks per gesture, hands lift-off velocity into a critically damped spring, and executes workspace reorders and window moves atomically inside Hyprland's Lua runtime with full rollback and `Ctrl+Z` undo.
 
 <p align="center">
-  <img src="assets/overview-hero.png" alt="omarchy-overview populated workspaces with Liquid Glass SpacesBar strip" width="100%">
+  <a href="assets/overview-hero.png"><img src="assets/overview-hero.png" alt="omarchy-overview populated workspaces with Liquid Glass SpacesBar strip (4K)" width="100%"></a>
 </p>
 
 ## Highlights
@@ -17,7 +17,7 @@ Unlike static grid popups or shell-forking scripts, `omarchy-overview` tracks yo
 - **Zero Idle Overhead & Live Theme Sync** — Stays resident as a 1×1 transparent pass-through surface when closed (0 timers, 0 forks, 0 GPU captures), enforces a 24-capture budget with calm single-frame staggered refreshes when open, and follows Omarchy's live `colors.toml` and wallpaper automatically.
 
 <p align="center">
-  <img src="assets/overview-empty-desk.png" alt="2-finger horizontal swipe reaching empty desk and + New desk tile" width="100%">
+  <a href="assets/overview-empty-desk.png"><img src="assets/overview-empty-desk.png" alt="2-finger horizontal swipe reaching empty desk and + New desk tile (4K)" width="100%"></a>
 </p>
 
 ## Architecture
